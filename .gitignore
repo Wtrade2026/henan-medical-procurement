@@ -1,0 +1,5 @@
+*.json
+*.txt
+crawler_*.py
+build_dashboard.py
+__pycache__/
