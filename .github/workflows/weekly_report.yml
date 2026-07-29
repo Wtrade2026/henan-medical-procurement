@@ -1,18 +1,21 @@
 name: 周二五周报
 on:
   schedule:
-    - cron: '0 5 * * 2,5'   # 周二五 13:00 CST
+    - cron: '0 5 * * 2,5'
   workflow_dispatch:
 
 jobs:
   report:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       issues: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: 生成报告 Issue
+      - name: 生成报告并创建 Issue
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python3 << 'PYEOF'
           import json, os
@@ -24,10 +27,9 @@ jobs:
 
           items = data["items"]
           cats = Counter(d.get("category","其他") for d in items)
-          cities = Counter(d.get("city","?") for d in items)
           now = datetime.now()
 
-          def top(cat, n=5):
+          def top(cat, n=6):
               seen = set(); r = []
               for d in sorted([x for x in items if x.get("category")==cat],
                               key=lambda x: x.get("pub_time",""), reverse=True):
@@ -37,41 +39,37 @@ jobs:
               return r
 
           body = f"""## 🏥 河南省医疗设备招投标周报
-          **{now.strftime("%Y年%m月%d日")}** · 自动生成
+**{now.strftime("%Y年%m月%d日")}** · 自动生成
 
-          | 🟢 招标 | 🔵 中标 | 🔴 终止 | 📊 合计 |
-          |--------|--------|--------|--------|
-          | {cats['招标']} | {cats['中标']} | {cats['终止']} | {len(items)} |
+| 🟢 招标 | 🔵 中标 | 🔴 终止 | 📊 合计 |
+|---|---|---|---|
+| {cats['招标']} | {cats['中标']} | {cats['终止']} | {len(items)} |
 
-          ### 📋 最新招标
-          | 时间 | 城市 | 标题 |
-          |------|------|------|
-          """
+### 📋 最新招标公告
+| 时间 | 城市 | 标题 |
+|---|---|---|
+"""
           for d in top("招标"):
-              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:50]}]({d.get('detail_url','')}) |\n"
+              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:55]}]({d.get('detail_url','')}) |\n"
 
-          body += "\n### 🏆 最新中标\n| 时间 | 城市 | 标题 |\n|------|------|------|\n"
+          body += "\n### 🏆 最新中标公告\n| 时间 | 城市 | 标题 |\n|---|---|---|\n"
           for d in top("中标"):
-              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:50]}]({d.get('detail_url','')}) |\n"
+              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:55]}]({d.get('detail_url','')}) |\n"
 
-          body += "\n### 🔴 最新终止\n| 时间 | 城市 | 标题 |\n|------|------|------|\n"
+          body += "\n### 🔴 最新终止/废标\n| 时间 | 城市 | 标题 |\n|---|---|---|\n"
           for d in top("终止"):
-              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:50]}]({d.get('detail_url','')}) |\n"
+              body += f"| {d.get('pub_time','?')[:10]} | {d.get('city','')} | [{d['title'][:55]}]({d.get('detail_url','')}) |\n"
 
           body += f"\n---\n📊 [打开完整看板](https://wtrade2026.github.io/henan-medical-procurement/) · 每周二/周五自动更新"
 
-          # 写环境变量供后续步骤使用
-          with open(os.environ["GITHUB_ENV"], "a") as f:
-              f.write(f"ISSUE_TITLE=🏥 河南医疗设备招投标周报 - {now.strftime('%m/%d')}\n")
-              # Escape for GitHub Actions
-              body_escaped = body.replace('%', '%25').replace('\n', '%0A').replace('\r', '%0D')
-              f.write(f"ISSUE_BODY<<EOF\n{body}\nEOF\n")
+          with open("report_body.md", "w", encoding="utf-8") as f:
+              f.write(body)
+          with open("report_title.txt", "w") as f:
+              f.write(f"🏥 河南医疗设备招投标周报 - {now.strftime('%m/%d')}")
           PYEOF
 
-      - name: 创建 Issue
-        uses: dacbd/create-issue-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          title: ${{ env.ISSUE_TITLE }}
-          body: ${{ env.ISSUE_BODY }}
-          labels: "周报,自动生成"
+          gh issue create \
+            --title "$(cat report_title.txt)" \
+            --body-file report_body.md \
+            --label "周报" \
+            --repo ${{ github.repository }}
