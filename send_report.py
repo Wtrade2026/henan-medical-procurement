@@ -11,10 +11,10 @@ DATA_FILE = os.path.join(SCRIPT_DIR, "henan_medical_full.json")
 PASSWORD_FILE = os.path.join(SCRIPT_DIR, ".email_password")
 
 # 配置
-SMTP_SERVER = "smtp.gmail.com"
+SMTP_SERVER = "smtp.qq.com"
 SMTP_PORT = 587
-FROM_EMAIL = "wayne.wtrade@gmail.com"
-TO_EMAIL = "wayne.wtrade@gmail.com"
+FROM_EMAIL = "3067941938@qq.com"
+TO_EMAIL = "3067941938@qq.com"
 
 
 def load_password():

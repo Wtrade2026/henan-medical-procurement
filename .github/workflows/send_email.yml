@@ -1,0 +1,111 @@
+name: 发送周报邮件
+on:
+  schedule:
+    # 周二和周五 13:00 CST = 05:00 UTC
+    - cron: '0 5 * * 2,5'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 生成报告并发送
+        run: |
+          python3 -c "
+          import json, smtplib
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+          from datetime import datetime
+          from collections import Counter
+          import os
+
+          with open('henan_medical_full.json') as f:
+              data = json.load(f)
+
+          items = data['items']
+          cats = Counter(d.get('category','其他') for d in items)
+          now = datetime.now()
+
+          def latest_items(cat, n):
+              seen = set()
+              result = []
+              matched = sorted([d for d in items if d.get('category')==cat], key=lambda x: x.get('pub_time',''), reverse=True)
+              for d in matched:
+                  iid = d.get('info_id','')
+                  if iid and iid not in seen:
+                      seen.add(iid)
+                      result.append(d)
+                  if len(result) >= n: break
+              return result
+
+          def row(d):
+              eq = ', '.join(d.get('matched_eq',[])[:3])
+              return f'''<tr>
+                <td style='white-space:nowrap;font-size:12px'>{(d.get('pub_time','?')[:10])}</td>
+                <td style='font-size:12px'>{d.get('city','')}</td>
+                <td style='font-size:12px'><span style='display:inline-block;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:600;background:#e3f0ff;color:#1a73e8'>{d.get('announce_type','')}</span></td>
+                <td><a href='{d.get('detail_url','')}' style='color:#1a73e8;text-decoration:none'>{d['title'][:60]}</a></td>
+                <td style='font-size:11px;color:#888'>{eq}</td>
+              </tr>'''
+
+          html = f'''<!DOCTYPE html>
+          <html lang='zh-CN'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'>
+          <style>
+          body{{margin:0;padding:0;background:#f0f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}}
+          .container{{max-width:680px;margin:0 auto;background:#fff}}
+          .header{{background:linear-gradient(135deg,#1a73e8,#0d47a1);color:#fff;padding:28px 32px}}
+          .header h1{{margin:0;font-size:20px}}
+          .header p{{margin:4px 0 0;font-size:13px;opacity:.85}}
+          .stats{{display:flex;gap:12px;padding:20px 32px}}
+          .stat{{flex:1;text-align:center;padding:14px 8px;border-radius:10px;background:#f8f9fa}}
+          .stat .num{{font-size:26px;font-weight:700}}
+          .stat .label{{font-size:11px;color:#888;margin-top:4px}}
+          .section{{padding:0 32px 20px}}
+          .section h3{{font-size:15px;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid #e8e8e8}}
+          table{{width:100%;border-collapse:collapse;font-size:13px}}
+          td{{padding:8px 10px;border-bottom:1px solid #f0f0f0;vertical-align:top}}
+          .footer{{border-top:1px solid #e8e8e8;padding:20px 32px;color:#999;font-size:12px;text-align:center}}
+          .btn{{display:inline-block;padding:10px 28px;background:#1a73e8;color:#fff!important;border-radius:6px;text-decoration:none;font-weight:600;margin:8px 0}}
+          </style></head><body>
+          <div class='container'>
+          <div class='header'><h1>&#x1F3E5; 河南省医疗设备招投标周报</h1><p>{now.strftime('%Y年%m月%d日')} &middot; 郑州/开封/洛阳/平顶山/安阳/鹤壁/新乡/焦作/濮阳</p></div>
+          <div class='stats'>
+          <div class='stat'><div class='num' style='color:#1a73e8'>{cats['招标']}</div><div class='label'>&#x1F7E2; 招标</div></div>
+          <div class='stat'><div class='num' style='color:#0d904f'>{cats['中标']}</div><div class='label'>&#x1F535; 中标</div></div>
+          <div class='stat'><div class='num' style='color:#d93025'>{cats['终止']}</div><div class='label'>&#x1F534; 终止</div></div>
+          <div class='stat'><div class='num'>{len(items)}</div><div class='label'>&#x1F4CA; 合计</div></div>
+          </div>
+          <div class='section'><h3 style='color:#1a73e8;border-color:#1a73e8'>&#x1F7E2; 最新招标公告</h3>
+          <table><tr><th>时间</th><th>城市</th><th>类型</th><th>标题</th><th>设备词</th></tr>
+          {''.join(row(d) for d in latest_items('招标',10))}</table></div>
+          <div class='section'><h3 style='color:#0d904f;border-color:#0d904f'>&#x1F535; 最新中标公告</h3>
+          <table><tr><th>时间</th><th>城市</th><th>类型</th><th>标题</th><th>设备词</th></tr>
+          {''.join(row(d) for d in latest_items('中标',10))}</table></div>
+          <div class='section'><h3 style='color:#d93025;border-color:#d93025'>&#x1F534; 最新终止/废标</h3>
+          <table><tr><th>时间</th><th>城市</th><th>类型</th><th>标题</th><th>设备词</th></tr>
+          {''.join(row(d) for d in latest_items('终止',10))}</table></div>
+          <div class='footer'>
+          <a href='https://wtrade2026.github.io/henan-medical-procurement/' class='btn'>&#x1F4CA; 打开完整看板</a>
+          <p style='margin-top:12px'>河南省政府采购网 &middot; 每周二/周五自动发送</p>
+          </div></div></body></html>'''
+
+          msg = MIMEMultipart('alternative')
+          msg['Subject'] = f'🏥 河南医疗设备招投标周报 - {now.strftime(\"%m/%d\")}'
+          msg['From'] = '3067941938@qq.com'
+          msg['To'] = '3067941938@qq.com'
+          msg.attach(MIMEText(html, 'html', 'utf-8'))
+
+          with smtplib.SMTP('smtp.qq.com', 587, timeout=30) as s:
+              s.starttls()
+              s.login('3067941938@qq.com', os.environ['QQ_SMTP_PASS'])
+              s.sendmail('3067941938@qq.com', ['3067941938@qq.com'], msg.as_string())
+          print('✅ 邮件已发送')
+          "
+        env:
+          QQ_SMTP_PASS: ${{ secrets.QQ_SMTP_PASS }}
