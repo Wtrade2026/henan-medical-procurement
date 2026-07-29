@@ -113,20 +113,31 @@ def parse_list(html):
         iid = re.search(r'infoId=(\d+)', href)
         ch = re.search(r'channelCode=(\w+)', href)
         atype = ""
+        region = ""
         p = li.find("p")
         if p:
             for sp in p.find_all("span", class_="Right10"):
-                if "公告类型" in sp.get_text():
-                    b = sp.find("span", class_="Blue")
+                txt = sp.get_text(strip=True)
+                b = sp.find("span", class_="Blue")
+                if "公告类型" in txt:
                     atype = b.get_text(strip=True) if b else ""
+                elif "区域" in txt:
+                    region = b.get_text(strip=True) if b else ""
         abs_url = href if href.startswith("http") else f"https://{href.lstrip('/')}" if href.startswith("//") else ""
         if not abs_url:
-            # Try to build URL from href
-            abs_url = href  # relative URLs will be resolved later
+            abs_url = href
+        # 从 region 字段推断城市
+        city = ""
+        if region:
+            for cn in ["郑州","开封","洛阳","平顶山","安阳","鹤壁","新乡","焦作","濮阳",
+                       "南阳","许昌","周口","商丘","驻马店","信阳","漯河","三门峡","济源"]:
+                if cn in region: city = cn; break
+            if not city and "河南" in region: city = "省级"
         results.append({
             "title": title, "info_id": iid.group(1) if iid else "",
             "channel_code": ch.group(1) if ch else "",
-            "announce_type": atype, "detail_url": abs_url,
+            "announce_type": atype, "region": region, "city": city,
+            "detail_url": abs_url,
         })
     return results
 
