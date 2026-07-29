@@ -1,5 +1,4 @@
-*.json
-*.txt
-crawler_*.py
-build_dashboard.py
 __pycache__/
+*.pyc
+crawl_progress.json
+/tmp/
