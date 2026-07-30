@@ -1,0 +1,21 @@
+name: 测试国内访问
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 测试访问河南省政府采购网
+        run: |
+          echo "=== DNS 解析 ==="
+          nslookup zfcg.henan.gov.cn 2>&1 || true
+          echo ""
+          echo "=== HTTP 访问 ==="
+          curl -s -o /dev/null -w "HTTP %{http_code}  (%{time_total}s)" \
+            -H "User-Agent: Mozilla/5.0" \
+            https://zfcg.henan.gov.cn/henan/ggcx 2>&1
+          echo ""
+          echo "=== 页面标题 ==="
+          curl -s -H "User-Agent: Mozilla/5.0" \
+            https://zfcg.henan.gov.cn/henan/ggcx 2>&1 | \
+            grep -oP '<title>[^<]+</title>' || echo "(无标题)"
