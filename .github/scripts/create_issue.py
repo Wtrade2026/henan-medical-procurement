@@ -9,6 +9,8 @@ with open("henan_medical_full.json") as f:
 items = data["items"]
 cats = Counter(d.get("category","其他") for d in items)
 now = datetime.now()
+pub_times = sorted([d.get("pub_time","") for d in items if d.get("pub_time")], reverse=True)
+data_latest = pub_times[0] if pub_times else "未知"
 
 def top(cat, n=6):
     seen = set()
@@ -25,7 +27,7 @@ def top(cat, n=6):
 
 body = f"""## 河南省医疗设备招投标周报
 
-**{now.strftime('%Y年%m月%d日')}** · 自动生成
+**{now.strftime('%Y年%m月%d日')}** · 数据截止：{data_latest} · 自动生成
 
 ---
 
