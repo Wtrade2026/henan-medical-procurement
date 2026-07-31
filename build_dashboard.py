@@ -90,6 +90,12 @@ data_b64 = base64.b64encode(json_str.encode('utf-8')).decode('ascii')
 cats = {"招标": 0, "中标": 0, "终止": 0, "其他": 0}
 for d in items: cats[d["category"]] = cats.get(d["category"], 0) + 1
 
+# 计算数据截止时间
+pub_times = sorted([d.get("pub_time","") for d in items if d.get("pub_time")], reverse=True)
+data_latest = pub_times[0] if pub_times else "未知"
+data_earliest = pub_times[-1] if pub_times else "未知"
+gen_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+
 # 生成 HTML
 html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -137,7 +143,7 @@ td.title a:hover {{ text-decoration:underline; }}
 
 <div class="header">
   <h1>&#x1F3E5; 河南省医疗设备招投标数据看板</h1>
-  <p>数据来源：河南省政府采购网 &middot; 查询范围：近1月 &middot; 生成时间：{datetime.now().strftime("%Y-%m-%d %H:%M")}</p>
+  <p>数据来源：河南省政府采购网 &middot; 查询范围：近1月 &middot; 数据截止：{data_latest} &middot; 生成时间：{gen_time}</p>
 </div>
 
 <div class="stats">
