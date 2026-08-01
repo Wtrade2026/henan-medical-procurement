@@ -228,12 +228,27 @@ var EQUIP_KW = {{
 
 var currentCat = "全部";
 
-// 动态生成城市下拉选项（从数据中提取，含"未知"）
+// 城市标准顺序（河南省官方排序：郑州→济源，1-18）
+var CITY_ORDER = ["郑州","开封","洛阳","平顶山","安阳","鹤壁","新乡","焦作","濮阳",
+                  "许昌","漯河","三门峡","南阳","商丘","信阳","周口","驻马店","济源"];
+
+// 动态生成城市下拉选项（按标准顺序，含"省级"和"未知"）
 (function initCityFilter() {{
   var cities = {{}};
   ALL_DATA.forEach(function(d) {{ cities[d.city || '未知'] = 1; }});
   var sel = document.getElementById("cityFilter");
-  Object.keys(cities).sort().forEach(function(c) {{
+  // 先按标准顺序排已知城市
+  CITY_ORDER.forEach(function(c) {{
+    if (cities[c]) {{
+      var opt = document.createElement("option");
+      opt.value = c;
+      opt.textContent = c;
+      sel.appendChild(opt);
+      delete cities[c];
+    }}
+  }});
+  // 剩余的（省级、未知等）按原顺序追加
+  Object.keys(cities).forEach(function(c) {{
     var opt = document.createElement("option");
     opt.value = c;
     opt.textContent = c;
