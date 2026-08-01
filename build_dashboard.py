@@ -173,6 +173,15 @@ td.title a:hover {{ text-decoration:underline; }}
     <option value="DSA">DSA/血管造影</option>
     <option value="消毒">消毒/灭菌</option>
   </select>
+  <select id="cityFilter" onchange="render()" style="margin-left:16px;">
+    <option value="">全部城市</option>
+  </select>
+  <select id="dateFilter" onchange="render()" style="margin-left:16px;">
+    <option value="">全部时间</option>
+    <option value="7">近1周</option>
+    <option value="30">近1月</option>
+    <option value="90">近3月</option>
+  </select>
   <input type="text" id="search" placeholder="&#x1F50D; 搜索标题、机构、设备关键词..." oninput="render()">
   <span id="resultInfo"></span>
 </div>
@@ -219,6 +228,19 @@ var EQUIP_KW = {{
 
 var currentCat = "全部";
 
+// 动态生成城市下拉选项（从数据中提取，含"未知"）
+(function initCityFilter() {{
+  var cities = {{}};
+  ALL_DATA.forEach(function(d) {{ cities[d.city || '未知'] = 1; }});
+  var sel = document.getElementById("cityFilter");
+  Object.keys(cities).sort().forEach(function(c) {{
+    var opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    sel.appendChild(opt);
+  }});
+}})();
+
 function filterCat(cat, btn) {{
   currentCat = cat;
   document.querySelectorAll('.tab-btn').forEach(function(b){{ b.classList.remove('active'); }});
@@ -241,10 +263,28 @@ function highlight(text) {{
 function render() {{
   var search = document.getElementById("search").value.toLowerCase();
   var equip = document.getElementById("equipFilter").value;
+  var city = document.getElementById("cityFilter").value;
+  var days = document.getElementById("dateFilter").value;
 
   var data = ALL_DATA;
   if (currentCat !== "全部") {{
     data = data.filter(function(d){{ return d.category === currentCat; }});
+  }}
+
+  // 城市筛选（精确匹配）
+  if (city) {{
+    data = data.filter(function(d){{ return (d.city || '未知') === city; }});
+  }}
+
+  // 日期筛选：近 N 天内（按 pub_time 前10位 YYYY-MM-DD）
+  if (days) {{
+    var cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - parseInt(days));
+    var cutoffStr = cutoff.toISOString().slice(0,10);
+    data = data.filter(function(d){{
+      var t = (d.pub_time || "").slice(0,10);
+      return t >= cutoffStr;
+    }});
   }}
 
   if (equip) {{
