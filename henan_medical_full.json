@@ -1,15 +1,965 @@
 {
   "summary": {
-    "total": 413,
+    "total": 468,
     "categories": {
-      "招标": 172,
-      "中标": 170,
-      "终止": 53,
+      "招标": 195,
+      "中标": 193,
+      "终止": 62,
       "其他": 18
     },
     "cities": 19
   },
   "items": [
+    {
+      "title": "栾川县人民医院扩建项目医养结合中心采购-公开招标公告",
+      "info_id": "1996561",
+      "channel_code": "D740502",
+      "announce_type": "采购公告",
+      "region": "洛阳市栾川县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996561&channelCode=D740502",
+      "matched_eq": [],
+      "city": "洛阳",
+      "agency": "栾川县人民医院",
+      "pub_time": "2026-08-03 19:45",
+      "views": "499",
+      "content_url": "/cmsweb35rc67w/lyslcx/cgxx/cggg/webinfo/2026/08/1996561.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "济源产城融合示范区教育体育局幼儿园办公及信息化设备采购项目-废标（终止）公告",
+      "info_id": "1996502",
+      "channel_code": "H790605",
+      "announce_type": "废标公告",
+      "region": "济源市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996502&channelCode=H790605",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "济源",
+      "agency": "济源产城融合示范区教育体育局",
+      "pub_time": "2026-08-03 18:11",
+      "views": "497",
+      "content_url": "/cmsweb35rc67w/jiyuan/cgxx/fbgg/webinfo/2026/08/1996502.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "固始县中医院购置麻醉手术室相关设备项目-更正公告",
+      "info_id": "1996490",
+      "channel_code": "D840504",
+      "announce_type": "变更公告",
+      "region": "固始县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996490&channelCode=D840504",
+      "matched_eq": [],
+      "city": "信阳",
+      "agency": "固始县中医院",
+      "pub_time": "2026-08-03 17:59",
+      "views": "558",
+      "content_url": "/cmsweb35rc67w/gushi/cgxx/bggg/webinfo/2026/08/1996490.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "沁阳市商隐小学西校区仪器、设备采购项目（1包）中标公告",
+      "info_id": "1996488",
+      "channel_code": "H690202",
+      "announce_type": "结果公告",
+      "region": "焦作市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996488&channelCode=H690202",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "焦作",
+      "agency": "沁阳市商隐小学",
+      "pub_time": "2026-08-03 17:59",
+      "views": "578",
+      "content_url": "/cmsweb35rc67w/jiaozuo/cgxx/jggg/webinfo/2026/08/1996488.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "ZFCG-G2026068号许昌市中心医院“许昌市中心医院神经电生理监测设备项目”-公开招标公告",
+      "info_id": "1996437",
+      "channel_code": "H710201",
+      "announce_type": "采购公告",
+      "region": "许昌市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996437&channelCode=H710201",
+      "matched_eq": [],
+      "city": "许昌",
+      "agency": "许昌市中心医院",
+      "pub_time": "2026-08-03 17:31",
+      "views": "525",
+      "content_url": "/cmsweb35rc67w/xuchang/cgxx/cggg/webinfo/2026/08/1996437.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "河南护理职业学院2026年度中华路校区南院区食品检验检测类核心实训设备购置项目（二次）竞争性谈判公告",
+      "info_id": "1996429",
+      "channel_code": "H600101",
+      "announce_type": "采购公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996429&channelCode=H600101",
+      "matched_eq": [
+        "设备购置"
+      ],
+      "city": "省级",
+      "agency": "河南护理职业学院",
+      "pub_time": "2026-08-03 17:24",
+      "views": "683",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/08/03/1996429.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "平顶山市新城区行政服务中心数字智慧办公软硬件设备采购项目",
+      "info_id": "1996426",
+      "channel_code": "D461401",
+      "announce_type": "合同公告",
+      "region": "平顶山市新城区",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996426&channelCode=D461401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "平顶山市新城区行政服务中心",
+      "pub_time": "2026-08-03 17:23",
+      "views": "469",
+      "content_url": "/cmsweb35rc67w/pdsxcq/htysgg/htgg/webinfo/2026/08/1996426.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "河南省人民医院设备更新项目-彩色多普勒超声诊断仪采购项目",
+      "info_id": "1996410",
+      "channel_code": "H601401",
+      "announce_type": "合同公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996410&channelCode=H601401",
+      "matched_eq": [
+        "超声",
+        "诊断仪",
+        "设备更新"
+      ],
+      "city": "省级",
+      "agency": "河南省人民医院",
+      "pub_time": "2026-08-03 17:14",
+      "views": "580",
+      "content_url": "/cmsweb35rc67w/henan/htysgg/htgg/webinfo/2026/08/1996410.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "民权县住房和城乡建设局民权县污水处理厂设备更新及配套主管网改造项目（二期）—工艺设备-废标（终止）公告",
+      "info_id": "1996409",
+      "channel_code": "D570703",
+      "announce_type": "废标公告",
+      "region": "商丘市民权县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996409&channelCode=D570703",
+      "matched_eq": [
+        "设备更新"
+      ],
+      "city": "商丘",
+      "agency": "民权县住房和城乡建设局",
+      "pub_time": "2026-08-03 17:14",
+      "views": "551",
+      "content_url": "/cmsweb35rc67w/sqsmqx/cgxx/fbgg/webinfo/2026/08/1996409.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "林州市公安局警务室综合办证设备采购项目竞争性谈判公告",
+      "info_id": "1996405",
+      "channel_code": "H660201",
+      "announce_type": "采购公告",
+      "region": "安阳市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996405&channelCode=H660201",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "安阳",
+      "agency": "林州市公安局",
+      "pub_time": "2026-08-03 17:10",
+      "views": "531",
+      "content_url": "/cmsweb35rc67w/anyang/cgxx/cggg/webinfo/2026/08/1996405.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "郑州大学第一附属医院高端EIT呼吸机（胸部阻抗断层成像）等采购项目包2-中标公告",
+      "info_id": "1996396",
+      "channel_code": "H600102",
+      "announce_type": "结果公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996396&channelCode=H600102",
+      "matched_eq": [
+        "呼吸机"
+      ],
+      "city": "省级",
+      "agency": "郑州大学第一附属医院",
+      "pub_time": "2026-08-03 17:06",
+      "views": "629",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/08/03/1996396.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "开封市人民医院2026年8至12月政府采购意向",
+      "info_id": "1996365",
+      "channel_code": "H620107",
+      "announce_type": "采购意向",
+      "region": "开封市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996365&channelCode=H620107",
+      "matched_eq": [],
+      "city": "开封",
+      "agency": "开封市人民医院",
+      "pub_time": "2026-08-03 16:51",
+      "views": "643",
+      "content_url": "/cmsweb35rc67w/kaifeng/cgxx/cgyx/webinfo/2026/08/1996365.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "信阳市中医院2026年8至10月政府采购意向",
+      "info_id": "1996356",
+      "channel_code": "H760607",
+      "announce_type": "采购意向",
+      "region": "信阳市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996356&channelCode=H760607",
+      "matched_eq": [],
+      "city": "信阳",
+      "agency": "信阳市中医院",
+      "pub_time": "2026-08-03 16:47",
+      "views": "634",
+      "content_url": "/cmsweb35rc67w/xinyang/cgxx/cgyx/webinfo/2026/08/1996356.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "郑州市中心医院国家创伤区域医疗中心血管内亚低温治疗仪等19种设备采购项目（二次）-公开招标公告",
+      "info_id": "1996350",
+      "channel_code": "H610101",
+      "announce_type": "采购公告",
+      "region": "郑州市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996350&channelCode=H610101",
+      "matched_eq": [
+        "治疗仪",
+        "设备采购"
+      ],
+      "city": "郑州",
+      "agency": "郑州市中心医院",
+      "pub_time": "2026-08-03 16:46",
+      "views": "508",
+      "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/08/1996350.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "天健先进生物医学实验室大型仪器共享平台设备采购项目（七）采购合同",
+      "info_id": "1996340",
+      "channel_code": "H601401",
+      "announce_type": "合同公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996340&channelCode=H601401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "省级",
+      "agency": "天健先进生物医学实验室",
+      "pub_time": "2026-08-03 16:42",
+      "views": "566",
+      "content_url": "/cmsweb35rc67w/henan/htysgg/htgg/webinfo/2026/08/1996340.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "会议室音响设备采购",
+      "info_id": "1996333",
+      "channel_code": "H651401",
+      "announce_type": "合同公告",
+      "region": "平顶山市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996333&channelCode=H651401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "平顶山市农业农村局",
+      "pub_time": "2026-08-03 16:40",
+      "views": "468",
+      "content_url": "/cmsweb35rc67w/pingdingshan/htysgg/htgg/webinfo/2026/08/1996333.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "商丘市中心血站无偿献血纪念品采购项目",
+      "info_id": "1996310",
+      "channel_code": "H751401",
+      "announce_type": "合同公告",
+      "region": "商丘市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996310&channelCode=H751401",
+      "matched_eq": [],
+      "city": "商丘",
+      "agency": "商丘市中心血站",
+      "pub_time": "2026-08-03 16:25",
+      "views": "442",
+      "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/08/1996310.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "周口市中心医院《周口市中心医院志（1951—2025）》印刷采购项目",
+      "info_id": "1996307",
+      "channel_code": "H771401",
+      "announce_type": "合同公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996307&channelCode=H771401",
+      "matched_eq": [],
+      "city": "周口",
+      "agency": "周口市中心医院",
+      "pub_time": "2026-08-03 16:23",
+      "views": "487",
+      "content_url": "/cmsweb35rc67w/zhoukou/htysgg/htgg/webinfo/2026/08/1996307.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "杞县中医院等离子空气消毒机采购项目-竞争性磋商公告",
+      "info_id": "1996300",
+      "channel_code": "H620101",
+      "announce_type": "采购公告",
+      "region": "开封市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996300&channelCode=H620101",
+      "matched_eq": [],
+      "city": "开封",
+      "agency": "杞县中医院",
+      "pub_time": "2026-08-03 16:21",
+      "views": "512",
+      "content_url": "/cmsweb35rc67w/kaifeng/cgxx/cggg/webinfo/2026/08/1996300.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "郑州大学第三附属医院（河南省妇幼保健院）呼吸机采购项目中标结果公告",
+      "info_id": "1996296",
+      "channel_code": "H600102",
+      "announce_type": "结果公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996296&channelCode=H600102",
+      "matched_eq": [
+        "呼吸机"
+      ],
+      "city": "省级",
+      "agency": "郑州大学第三附属医院(河南省妇幼保健院）",
+      "pub_time": "2026-08-03 16:18",
+      "views": "652",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/08/03/1996296.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "洛阳市中心医院2026年8至9月政府采购意向",
+      "info_id": "1996289",
+      "channel_code": "H640107",
+      "announce_type": "采购意向",
+      "region": "洛阳市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996289&channelCode=H640107",
+      "matched_eq": [],
+      "city": "洛阳",
+      "agency": "洛阳市中心医院",
+      "pub_time": "2026-08-03 16:15",
+      "views": "658",
+      "content_url": "/cmsweb35rc67w/luoyang/zgxx/cgyx/webinfo/2026/08/1996289.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "周口市淮阳区教育体育局2023年改善普通高中办学条件设备购置项目-成交公告",
+      "info_id": "1996276",
+      "channel_code": "H770602",
+      "announce_type": "结果公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996276&channelCode=H770602",
+      "matched_eq": [
+        "设备购置"
+      ],
+      "city": "周口",
+      "agency": "周口市淮阳区教育体育局",
+      "pub_time": "2026-08-03 16:07",
+      "views": "491",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/jggg/webinfo/2026/08/1996276.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "【平公资采2026795号】平顶山市第二人民医院门诊医技楼设施配套和补充购置设备项目（口腔科配套设备）项目-更正公告",
+      "info_id": "1996275",
+      "channel_code": "H650203",
+      "announce_type": "变更公告",
+      "region": "平顶山市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996275&channelCode=H650203",
+      "matched_eq": [],
+      "city": "平顶山",
+      "agency": "平顶山市第二人民医院",
+      "pub_time": "2026-08-03 16:07",
+      "views": "563",
+      "content_url": "/cmsweb35rc67w/pingdingshan/cgxx/bggg/webinfo/2026/08/1996275.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "河南省特种设备检验技术研究院智能网联特种设备检验工程技术研究中心设备购置项目-更正公告",
+      "info_id": "1996269",
+      "channel_code": "H600103",
+      "announce_type": "变更公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996269&channelCode=H600103",
+      "matched_eq": [
+        "设备购置"
+      ],
+      "city": "省级",
+      "agency": "河南省特种设备检验技术研究院",
+      "pub_time": "2026-08-03 16:05",
+      "views": "572",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/08/03/1996269.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "实验实训设备采购",
+      "info_id": "1996264",
+      "channel_code": "H781401",
+      "announce_type": "合同公告",
+      "region": "驻马店市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996264&channelCode=H781401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "驻马店",
+      "agency": "驻马店农业工程职业学院",
+      "pub_time": "2026-08-03 16:01",
+      "views": "510",
+      "content_url": "/cmsweb35rc67w/zhumadian/htysgg/htgg/webinfo/2026/08/1996264.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "商丘市中心血站无偿献血纪念品采购项目",
+      "info_id": "1996244",
+      "channel_code": "H751401",
+      "announce_type": "合同公告",
+      "region": "商丘市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996244&channelCode=H751401",
+      "matched_eq": [],
+      "city": "商丘",
+      "agency": "商丘市中心血站",
+      "pub_time": "2026-08-03 15:52",
+      "views": "462",
+      "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/08/1996244.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "郑州市中心医院国家创伤区域医疗中心多功能电动床等22种设备采购项目-废标公告",
+      "info_id": "1996240",
+      "channel_code": "H610105",
+      "announce_type": "废标公告",
+      "region": "郑州市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996240&channelCode=H610105",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "郑州",
+      "agency": "郑州市中心医院",
+      "pub_time": "2026-08-03 15:50",
+      "views": "576",
+      "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/08/1996240.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "河南省胸科医院放射性药品采购项目（二次）-废标公告",
+      "info_id": "1996221",
+      "channel_code": "H600105",
+      "announce_type": "废标公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996221&channelCode=H600105",
+      "matched_eq": [],
+      "city": "省级",
+      "agency": "河南省胸科医院",
+      "pub_time": "2026-08-03 15:43",
+      "views": "601",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/henan/cgxx/fbgg/webinfo/2026/08/1996221.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "温县人民医院CT及磁共振维保服务项目合同",
+      "info_id": "1996205",
+      "channel_code": "H691401",
+      "announce_type": "合同公告",
+      "region": "焦作市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996205&channelCode=H691401",
+      "matched_eq": [
+        "磁共振",
+        "CT"
+      ],
+      "city": "焦作",
+      "agency": "温县人民医院",
+      "pub_time": "2026-08-03 15:30",
+      "views": "491",
+      "content_url": "/cmsweb35rc67w/jiaozuo/htysgg/htgg/webinfo/2026/08/1996205.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "商丘市中心血站无偿献血纪念品采购项目",
+      "info_id": "1996184",
+      "channel_code": "H751401",
+      "announce_type": "合同公告",
+      "region": "商丘市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996184&channelCode=H751401",
+      "matched_eq": [],
+      "city": "商丘",
+      "agency": "商丘市中心血站",
+      "pub_time": "2026-08-03 15:30",
+      "views": "446",
+      "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/08/1996184.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "濮阳县中医医院2026年医疗设备（第一批）采购项目（三次）-竞争性磋商公告",
+      "info_id": "1996196",
+      "channel_code": "D990502",
+      "announce_type": "采购公告",
+      "region": "濮阳市濮阳县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996196&channelCode=D990502",
+      "matched_eq": [
+        "医疗设备"
+      ],
+      "city": "濮阳",
+      "agency": "濮阳县中医医院",
+      "pub_time": "2026-08-03 15:26",
+      "views": "557",
+      "content_url": "/cmsweb35rc67w/puyangxian/cgxx/cggg/webinfo/2026/08/1996196.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "郑州市中心医院国家创伤区域医疗中心多功能电动床等22种设备采购项目-中标公告",
+      "info_id": "1996187",
+      "channel_code": "H610102",
+      "announce_type": "结果公告",
+      "region": "郑州市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996187&channelCode=H610102",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "郑州",
+      "agency": "郑州市中心医院",
+      "pub_time": "2026-08-03 15:19",
+      "views": "547",
+      "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/jggg/webinfo/2026/08/1996187.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "宝丰县公安局办公设备采购",
+      "info_id": "1996186",
+      "channel_code": "D481401",
+      "announce_type": "合同公告",
+      "region": "平顶山市宝丰县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996186&channelCode=D481401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "宝丰县公安局",
+      "pub_time": "2026-08-03 15:18",
+      "views": "478",
+      "content_url": "/cmsweb35rc67w/pdsbfx/htysgg/htgg/webinfo/2026/08/1996186.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "郑州市第七人民医院2026年8至9月政府采购意向",
+      "info_id": "1996177",
+      "channel_code": "H610107",
+      "announce_type": "采购意向",
+      "region": "郑州市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996177&channelCode=H610107",
+      "matched_eq": [],
+      "city": "郑州",
+      "agency": "郑州市第七人民医院",
+      "pub_time": "2026-08-03 15:14",
+      "views": "684",
+      "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cgyx/webinfo/2026/08/1996177.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "郑州市第一人民医院2025年度4K高清腹腔镜系统采购项目-废标（终止）公告",
+      "info_id": "1996165",
+      "channel_code": "H610105",
+      "announce_type": "废标公告",
+      "region": "郑州市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996165&channelCode=H610105",
+      "matched_eq": [
+        "腹腔镜",
+        "腔镜"
+      ],
+      "city": "郑州",
+      "agency": "郑州市第一人民医院",
+      "pub_time": "2026-08-03 15:00",
+      "views": "632",
+      "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/08/1996165.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "【平公资采2026682号】叶县田庄乡人民政府叶县2026年田庄乡乡村振兴产业发展项目（二期）-设备采购-中标公告",
+      "info_id": "1996149",
+      "channel_code": "D490202",
+      "announce_type": "结果公告",
+      "region": "平顶山市叶县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996149&channelCode=D490202",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "叶县田庄乡人民政府",
+      "pub_time": "2026-08-03 14:52",
+      "views": "572",
+      "content_url": "/cmsweb35rc67w/pdsyx/cgxx/jggg/webinfo/2026/08/1996149.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "【平公资采2026668号】叶县田庄乡人民政府叶县2026年田庄乡乡村振兴产业发展项目（一期）-设备采购-中标公告",
+      "info_id": "1996156",
+      "channel_code": "D490202",
+      "announce_type": "结果公告",
+      "region": "平顶山市叶县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996156&channelCode=D490202",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "叶县田庄乡人民政府",
+      "pub_time": "2026-08-03 14:52",
+      "views": "575",
+      "content_url": "/cmsweb35rc67w/pdsyx/cgxx/jggg/webinfo/2026/08/1996156.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "项城市高寺镇卫生院彩色超声诊断仪项目-竞争性磋商公告",
+      "info_id": "1996138",
+      "channel_code": "H770601",
+      "announce_type": "采购公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996138&channelCode=H770601",
+      "matched_eq": [
+        "超声",
+        "诊断仪"
+      ],
+      "city": "周口",
+      "agency": "项城市高寺镇卫生院",
+      "pub_time": "2026-08-03 14:42",
+      "views": "582",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cggg/webinfo/2026/08/1996138.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "2026年陕州区西李村乡李村粮食烘干配套项目-设备采购成交公告",
+      "info_id": "1996120",
+      "channel_code": "H730202",
+      "announce_type": "结果公告",
+      "region": "三门峡市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996120&channelCode=H730202",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "三门峡",
+      "agency": "三门峡市陕州区西李村乡人民政府",
+      "pub_time": "2026-08-03 14:00",
+      "views": "640",
+      "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/jggg/webinfo/2026/08/1996120.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "卢氏县中医院2021年10月采购的GE RevolutionAce 64排CT维保服务项目-竞争性磋商公告",
+      "info_id": "1996112",
+      "channel_code": "H730201",
+      "announce_type": "采购公告",
+      "region": "三门峡市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996112&channelCode=H730201",
+      "matched_eq": [
+        "CT"
+      ],
+      "city": "三门峡",
+      "agency": "卢氏县中医院",
+      "pub_time": "2026-08-03 13:31",
+      "views": "705",
+      "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cggg/webinfo/2026/08/1996112.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "河南省中医院（河南中医药大学第二附属医院） 4K超高清宫腔镜系统医疗设备更新项目-中标公告",
+      "info_id": "1996084",
+      "channel_code": "H600102",
+      "announce_type": "结果公告",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996084&channelCode=H600102",
+      "matched_eq": [
+        "腔镜",
+        "医疗设备",
+        "设备更新"
+      ],
+      "city": "省级",
+      "agency": "河南省中医院（河南中医药大学第二附属医院）",
+      "pub_time": "2026-08-03 12:15",
+      "views": "859",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/08/03/1996084.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "项城市第一人民医院无纸化病历管理系统采购项目-竞争性磋商公告",
+      "info_id": "1996077",
+      "channel_code": "H770601",
+      "announce_type": "采购公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996077&channelCode=H770601",
+      "matched_eq": [],
+      "city": "周口",
+      "agency": "项城市第一人民医院",
+      "pub_time": "2026-08-03 11:58",
+      "views": "776",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cggg/webinfo/2026/08/1996077.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "周口市消防救援支队消防职业技能培训设备采购项目",
+      "info_id": "1996053",
+      "channel_code": "H771401",
+      "announce_type": "合同公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996053&channelCode=H771401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "周口",
+      "agency": "周口市消防救援支队",
+      "pub_time": "2026-08-03 11:37",
+      "views": "723",
+      "content_url": "/cmsweb35rc67w/zhoukou/htysgg/htgg/webinfo/2026/08/1996053.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "沈丘县人民医院计算机中心机房扩容项目-公开招标公告",
+      "info_id": "1996059",
+      "channel_code": "H770601",
+      "announce_type": "采购公告",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996059&channelCode=H770601",
+      "matched_eq": [],
+      "city": "周口",
+      "agency": "沈丘县人民医院",
+      "pub_time": "2026-08-03 11:37",
+      "views": "831",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cggg/webinfo/2026/08/1996059.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "安阳市公安局户籍业务设备采购项目-废标（终止）公告",
+      "info_id": "1996042",
+      "channel_code": "H660205",
+      "announce_type": "废标公告",
+      "region": "安阳市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996042&channelCode=H660205",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "安阳",
+      "agency": "安阳市公安局",
+      "pub_time": "2026-08-03 11:27",
+      "views": "365",
+      "content_url": "/cmsweb35rc67w/anyang/cgxx/fbgg/webinfo/2026/08/1996042.htm",
+      "body_html": "",
+      "category": "终止"
+    },
+    {
+      "title": "息县人民医院飞利浦血管机球管更换项目",
+      "info_id": "1996030",
+      "channel_code": "E080301",
+      "announce_type": "合同公告",
+      "region": "息县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996030&channelCode=E080301",
+      "matched_eq": [],
+      "city": "信阳",
+      "agency": "息县人民医院",
+      "pub_time": "2026-08-03 11:19",
+      "views": "753",
+      "content_url": "/cmsweb35rc67w/xixian/htjysgg/htgg/webinfo/2026/08/1996030.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "郑州大学第一附属医院2026年7至8月政府采购意向",
+      "info_id": "1996022",
+      "channel_code": "H600107",
+      "announce_type": "采购意向",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996022&channelCode=H600107",
+      "matched_eq": [],
+      "city": "省级",
+      "agency": "郑州大学第一附属医院",
+      "pub_time": "2026-08-03 11:05",
+      "views": "1056",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/08/1996022.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "固始县人民医院医用电子直线加速器维保服务项目（二次）-竞争性磋商公告",
+      "info_id": "1996003",
+      "channel_code": "D840502",
+      "announce_type": "采购公告",
+      "region": "固始县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996003&channelCode=D840502",
+      "matched_eq": [
+        "直线加速器"
+      ],
+      "city": "信阳",
+      "agency": "固始县人民医院",
+      "pub_time": "2026-08-03 10:56",
+      "views": "840",
+      "content_url": "/cmsweb35rc67w/gushi/cgxx/cggg/webinfo/2026/08/1996003.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "项城市第一人民医院2026年8至9月政府采购意向",
+      "info_id": "1996009",
+      "channel_code": "H770607",
+      "announce_type": "采购意向",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1996009&channelCode=H770607",
+      "matched_eq": [],
+      "city": "周口",
+      "agency": "项城市第一人民医院",
+      "pub_time": "2026-08-03 10:51",
+      "views": "796",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cgyx/webinfo/2026/08/1996009.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "延津县医疗卫生共同体总医院延津县人民医院医共体附属重点中心乡镇卫生院建设项目（设备）-公开招标公告",
+      "info_id": "1995997",
+      "channel_code": "H680201",
+      "announce_type": "采购公告",
+      "region": "新乡市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995997&channelCode=H680201",
+      "matched_eq": [],
+      "city": "新乡",
+      "agency": "延津县医疗卫生共同体总医院",
+      "pub_time": "2026-08-03 10:48",
+      "views": "900",
+      "content_url": "/cmsweb35rc67w/xinxiang/cgxx/cggg/webinfo/2026/08/1995997.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "伊川县人民医院购置进口胃肠镜工作系统项目（二次）-公开招标公告",
+      "info_id": "1995982",
+      "channel_code": "D230201",
+      "announce_type": "采购公告",
+      "region": "伊川县政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995982&channelCode=D230201",
+      "matched_eq": [],
+      "city": "洛阳",
+      "agency": "伊川县人民医院",
+      "pub_time": "2026-08-03 10:45",
+      "views": "884",
+      "content_url": "/cmsweb35rc67w/yichuan/cgxx/cggg/webinfo/2026/08/1995982.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "温县第二人民医院新院区配套设施及补充设备项目（高压氧舱）项目成交公告",
+      "info_id": "1995989",
+      "channel_code": "H690202",
+      "announce_type": "结果公告",
+      "region": "焦作市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995989&channelCode=H690202",
+      "matched_eq": [
+        "高压氧舱"
+      ],
+      "city": "焦作",
+      "agency": "温县第二人民医院",
+      "pub_time": "2026-08-03 10:41",
+      "views": "826",
+      "content_url": "/cmsweb35rc67w/jiaozuo/cgxx/jggg/webinfo/2026/08/1995989.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "河南中医药大学第一附属医院2026年8至12月政府采购意向",
+      "info_id": "1995972",
+      "channel_code": "H600107",
+      "announce_type": "采购意向",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995972&channelCode=H600107",
+      "matched_eq": [],
+      "city": "省级",
+      "agency": "河南中医药大学第一附属医院",
+      "pub_time": "2026-08-03 10:22",
+      "views": "1074",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/08/1995972.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "河南中医药大学第一附属医院2026年7至12月政府采购意向",
+      "info_id": "1995964",
+      "channel_code": "H600107",
+      "announce_type": "采购意向",
+      "region": "河南省政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995964&channelCode=H600107",
+      "matched_eq": [],
+      "city": "省级",
+      "agency": "河南中医药大学第一附属医院",
+      "pub_time": "2026-08-03 10:14",
+      "views": "1033",
+      "content_url": "/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/08/1995964.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "正阳县妇幼保健院2026年8月政府采购意向",
+      "info_id": "1995934",
+      "channel_code": "H780607",
+      "announce_type": "采购意向",
+      "region": "驻马店市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995934&channelCode=H780607",
+      "matched_eq": [],
+      "city": "驻马店",
+      "agency": "正阳县妇幼保健院",
+      "pub_time": "2026-08-03 09:31",
+      "views": "908",
+      "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cgyx/webinfo/2026/08/1995934.htm",
+      "body_html": "",
+      "category": "招标"
+    },
     {
       "title": "濮阳市政府采购中心南乐县第二人民医院智慧医院及医疗设备采购项目（二次）公开招标公告",
       "info_id": "1995857",
@@ -24,7 +974,7 @@
       "city": "濮阳",
       "agency": "南乐县第二人民医院",
       "pub_time": "2026-08-01 15:40",
-      "views": "1509",
+      "views": "2258",
       "content_url": "/cmsweb35rc67w/nanlexian/cgxx/cggg/webinfo/2026/08/1995857.htm",
       "body_html": "",
       "category": "招标"
@@ -40,7 +990,7 @@
       "city": "驻马店",
       "agency": "泌阳县人民医院",
       "pub_time": "2026-08-01 13:43",
-      "views": "1817",
+      "views": "2690",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cgyx/webinfo/2026/08/1995855.htm",
       "body_html": "",
       "category": "招标"
@@ -56,7 +1006,7 @@
       "city": "驻马店",
       "agency": "泌阳县人民医院",
       "pub_time": "2026-08-01 13:42",
-      "views": "1824",
+      "views": "2660",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cgyx/webinfo/2026/08/1995854.htm",
       "body_html": "",
       "category": "招标"
@@ -72,7 +1022,7 @@
       "city": "三门峡",
       "agency": "卢氏县中医院",
       "pub_time": "2026-08-01 12:30",
-      "views": "1700",
+      "views": "2502",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cgyx/webinfo/2026/08/1995853.htm",
       "body_html": "",
       "category": "招标"
@@ -90,7 +1040,7 @@
       "city": "省级",
       "agency": "河南中医药大学",
       "pub_time": "2026-07-31 19:33",
-      "views": "1691",
+      "views": "2387",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/31/1995802.htm",
       "body_html": "",
       "category": "中标"
@@ -108,7 +1058,7 @@
       "city": "驻马店",
       "agency": "确山县教育局",
       "pub_time": "2026-07-31 19:26",
-      "views": "2142",
+      "views": "2872",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cggg/webinfo/2026/07/1995801.htm",
       "body_html": "",
       "category": "招标"
@@ -126,7 +1076,7 @@
       "city": "驻马店",
       "agency": "确山县教育局",
       "pub_time": "2026-07-31 19:26",
-      "views": "2412",
+      "views": "3275",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cggg/webinfo/2026/07/1995800.htm",
       "body_html": "",
       "category": "招标"
@@ -144,7 +1094,7 @@
       "city": "洛阳",
       "agency": "伊川县人民医院",
       "pub_time": "2026-07-31 19:09",
-      "views": "1807",
+      "views": "2291",
       "content_url": "/cmsweb35rc67w/yichuan/htysgg/htgg/webinfo/2026/07/1995793.htm",
       "body_html": "",
       "category": "中标"
@@ -163,24 +1113,8 @@
       "city": "洛阳",
       "agency": "伊川县人民医院",
       "pub_time": "2026-07-31 18:26",
-      "views": "1642",
+      "views": "2064",
       "content_url": "/cmsweb35rc67w/yichuan/htysgg/htgg/webinfo/2026/07/1995766.htm",
-      "body_html": "",
-      "category": "中标"
-    },
-    {
-      "title": "商丘市中心血站无偿献血纪念品采购项目",
-      "info_id": "1995754",
-      "channel_code": "H751401",
-      "announce_type": "合同公告",
-      "region": "商丘市政府",
-      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995754&channelCode=H751401",
-      "matched_eq": [],
-      "city": "商丘",
-      "agency": "商丘市中心血站",
-      "pub_time": "2026-07-31 18:13",
-      "views": "1619",
-      "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/07/1995754.htm",
       "body_html": "",
       "category": "中标"
     },
@@ -197,7 +1131,7 @@
       "city": "三门峡",
       "agency": "卢氏县中医院",
       "pub_time": "2026-07-31 18:11",
-      "views": "1799",
+      "views": "2393",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cggg/webinfo/2026/07/1995748.htm",
       "body_html": "",
       "category": "招标"
@@ -216,7 +1150,7 @@
       "city": "商丘",
       "agency": "商丘市中医院",
       "pub_time": "2026-07-31 18:04",
-      "views": "1641",
+      "views": "2099",
       "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/07/1995740.htm",
       "body_html": "",
       "category": "中标"
@@ -234,7 +1168,7 @@
       "city": "洛阳",
       "agency": "洛阳市第五人民医院",
       "pub_time": "2026-07-31 17:54",
-      "views": "1669",
+      "views": "2320",
       "content_url": "/cmsweb35rc67w/luoyang/htysgg/ysjggg/webinfo/2026/07/1995720.htm",
       "body_html": "",
       "category": "其他"
@@ -250,7 +1184,7 @@
       "city": "商丘",
       "agency": "永城市中医院",
       "pub_time": "2026-07-31 17:51",
-      "views": "1616",
+      "views": "2068",
       "content_url": "/cmsweb35rc67w/ycs/cgxx/cgyx/webinfo/2026/07/1995714.htm",
       "body_html": "",
       "category": "招标"
@@ -266,7 +1200,7 @@
       "city": "郑州",
       "agency": "郑州市卫生健康人才中心",
       "pub_time": "2026-07-31 17:47",
-      "views": "1284",
+      "views": "1700",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/jggg/webinfo/2026/07/1995699.htm",
       "body_html": "",
       "category": "中标"
@@ -284,7 +1218,7 @@
       "city": "省级",
       "agency": "温县人民法院",
       "pub_time": "2026-07-31 17:38",
-      "views": "1468",
+      "views": "1927",
       "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/07/31/1995681.htm",
       "body_html": "",
       "category": "终止"
@@ -300,28 +1234,10 @@
       "city": "开封",
       "agency": "杞县中医院",
       "pub_time": "2026-07-31 17:37",
-      "views": "1463",
+      "views": "1939",
       "content_url": "/cmsweb35rc67w/kaifeng/cgxx/cgyx/webinfo/2026/07/1995677.htm",
       "body_html": "",
       "category": "招标"
-    },
-    {
-      "title": "实验实训设备采购",
-      "info_id": "1995664",
-      "channel_code": "H781401",
-      "announce_type": "合同公告",
-      "region": "驻马店市政府",
-      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995664&channelCode=H781401",
-      "matched_eq": [
-        "设备采购"
-      ],
-      "city": "驻马店",
-      "agency": "驻马店农业工程职业学院",
-      "pub_time": "2026-07-31 17:31",
-      "views": "2023",
-      "content_url": "/cmsweb35rc67w/zhumadian/htysgg/htgg/webinfo/2026/07/1995664.htm",
-      "body_html": "",
-      "category": "中标"
     },
     {
       "title": "温县第二人民医院新院区配套与补充设备（无影灯）项目",
@@ -336,7 +1252,7 @@
       "city": "焦作",
       "agency": "温县第二人民医院",
       "pub_time": "2026-07-31 17:30",
-      "views": "1638",
+      "views": "2086",
       "content_url": "/cmsweb35rc67w/jiaozuo/htysgg/htgg/webinfo/2026/07/1995663.htm",
       "body_html": "",
       "category": "中标"
@@ -355,7 +1271,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 17:24",
-      "views": "1789",
+      "views": "2449",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1995641.htm",
       "body_html": "",
       "category": "终止"
@@ -371,7 +1287,7 @@
       "city": "南阳",
       "agency": "西峡县人民医院",
       "pub_time": "2026-07-31 17:22",
-      "views": "1584",
+      "views": "2074",
       "content_url": "/cmsweb35rc67w/nanyang/cgxx/cgyx/webinfo/2026/07/1995638.htm",
       "body_html": "",
       "category": "招标"
@@ -389,7 +1305,7 @@
       "city": "信阳",
       "agency": "固始县人民医院",
       "pub_time": "2026-07-31 17:14",
-      "views": "1840",
+      "views": "2500",
       "content_url": "/cmsweb35rc67w/gushi/cgxx/fbgg/webinfo/2026/07/1995616.htm",
       "body_html": "",
       "category": "终止"
@@ -405,7 +1321,7 @@
       "city": "省级",
       "agency": "河南医药大学第二附属医院（河南省精神病医院）",
       "pub_time": "2026-07-31 17:11",
-      "views": "976",
+      "views": "1237",
       "content_url": "/cmsweb35rc67w/henan/htysgg/htgg/webinfo/2026/07/1995609.htm",
       "body_html": "",
       "category": "中标"
@@ -421,7 +1337,7 @@
       "city": "平顶山",
       "agency": "平顶山市第一人民医院",
       "pub_time": "2026-07-31 17:07",
-      "views": "1566",
+      "views": "2019",
       "content_url": "/cmsweb35rc67w/pingdingshan/cgxx/cggg/webinfo/2026/07/1995605.htm",
       "body_html": "",
       "category": "招标"
@@ -440,26 +1356,10 @@
       "city": "三门峡",
       "agency": "三门峡市陕州区人民医院",
       "pub_time": "2026-07-31 17:07",
-      "views": "1487",
+      "views": "1929",
       "content_url": "/cmsweb35rc67w/sanmenxia/htysgg/htgg/webinfo/2026/07/1995604.htm",
       "body_html": "",
       "category": "中标"
-    },
-    {
-      "title": "项城市第一人民医院2026年7至9月政府采购意向",
-      "info_id": "1995581",
-      "channel_code": "H770607",
-      "announce_type": "采购意向",
-      "region": "周口市政府",
-      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995581&channelCode=H770607",
-      "matched_eq": [],
-      "city": "周口",
-      "agency": "项城市第一人民医院",
-      "pub_time": "2026-07-31 17:01",
-      "views": "1529",
-      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cgyx/webinfo/2026/07/1995581.htm",
-      "body_html": "",
-      "category": "招标"
     },
     {
       "title": "河南淅胜产业发展有限责任公司中原数智融合产业园项目设备采购项目",
@@ -474,7 +1374,7 @@
       "city": "南阳",
       "agency": "河南淅胜产业发展有限责任公司",
       "pub_time": "2026-07-31 16:47",
-      "views": "1439",
+      "views": "1823",
       "content_url": "/cmsweb35rc67w/nanyang/htysgg/htgg/webinfo/2026/07/1995547.htm",
       "body_html": "",
       "category": "中标"
@@ -492,7 +1392,7 @@
       "city": "周口",
       "agency": "鹿邑县教育体育局",
       "pub_time": "2026-07-31 16:44",
-      "views": "472",
+      "views": "656",
       "content_url": "/cmsweb35rc67w/luyi/pxyd/xtwtjd/webinfo/2026/07/1995540.htm",
       "body_html": "",
       "category": "中标"
@@ -508,7 +1408,7 @@
       "city": "驻马店",
       "agency": "驻马店市中心医院",
       "pub_time": "2026-07-31 16:41",
-      "views": "1652",
+      "views": "2170",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cgyx/webinfo/2026/07/1995534.htm",
       "body_html": "",
       "category": "招标"
@@ -524,7 +1424,7 @@
       "city": "三门峡",
       "agency": "三门峡市中心医院",
       "pub_time": "2026-07-31 16:20",
-      "views": "1512",
+      "views": "1963",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cggg/webinfo/2026/07/1995479.htm",
       "body_html": "",
       "category": "招标"
@@ -540,7 +1440,7 @@
       "city": "焦作",
       "agency": "焦作市120急救指挥中心",
       "pub_time": "2026-07-31 16:20",
-      "views": "1558",
+      "views": "1985",
       "content_url": "/cmsweb35rc67w/jiaozuo/cgxx/cgyx/webinfo/2026/07/1995471.htm",
       "body_html": "",
       "category": "招标"
@@ -556,7 +1456,7 @@
       "city": "濮阳",
       "agency": "范县卫生健康委员会",
       "pub_time": "2026-07-31 16:12",
-      "views": "1688",
+      "views": "2136",
       "content_url": "/cmsweb35rc67w/fanxian/cgxx/cgyx/webinfo/2026/07/1995453.htm",
       "body_html": "",
       "category": "招标"
@@ -575,7 +1475,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 16:11",
-      "views": "1381",
+      "views": "1806",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1995447.htm",
       "body_html": "",
       "category": "招标"
@@ -593,7 +1493,7 @@
       "city": "周口",
       "agency": "周口市黄泛区农场中心医院",
       "pub_time": "2026-07-31 16:08",
-      "views": "1638",
+      "views": "2120",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cggg/webinfo/2026/07/1995443.htm",
       "body_html": "",
       "category": "招标"
@@ -611,7 +1511,7 @@
       "city": "驻马店",
       "agency": "遂平县城市管理局",
       "pub_time": "2026-07-31 16:07",
-      "views": "1629",
+      "views": "2095",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/cggg/webinfo/2026/07/1995441.htm",
       "body_html": "",
       "category": "招标"
@@ -627,7 +1527,7 @@
       "city": "三门峡",
       "agency": "三门峡市中心医院",
       "pub_time": "2026-07-31 16:06",
-      "views": "1531",
+      "views": "1991",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cgyx/webinfo/2026/07/1995438.htm",
       "body_html": "",
       "category": "招标"
@@ -647,7 +1547,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 16:04",
-      "views": "1720",
+      "views": "2268",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/bggg/webinfo/2026/07/1995436.htm",
       "body_html": "",
       "category": "终止"
@@ -665,7 +1565,7 @@
       "city": "省级",
       "agency": "河南技师学院",
       "pub_time": "2026-07-31 15:59",
-      "views": "1525",
+      "views": "2012",
       "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/07/31/1995419.htm",
       "body_html": "",
       "category": "终止"
@@ -683,7 +1583,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 15:49",
-      "views": "1669",
+      "views": "2191",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/bggg/webinfo/2026/07/1995395.htm",
       "body_html": "",
       "category": "终止"
@@ -699,7 +1599,7 @@
       "city": "信阳",
       "agency": "信阳市人民医院",
       "pub_time": "2026-07-31 15:35",
-      "views": "1538",
+      "views": "1999",
       "content_url": "/cmsweb35rc67w/xinyang/cgxx/cggg/webinfo/2026/07/1995237.htm",
       "body_html": "",
       "category": "招标"
@@ -715,7 +1615,7 @@
       "city": "安阳",
       "agency": "林州市中医院",
       "pub_time": "2026-07-31 15:30",
-      "views": "1681",
+      "views": "2143",
       "content_url": "/cmsweb35rc67w/anyang/cgxx/cgyx/webinfo/2026/07/1995347.htm",
       "body_html": "",
       "category": "招标"
@@ -731,7 +1631,7 @@
       "city": "鹤壁",
       "agency": "浚县中医院",
       "pub_time": "2026-07-31 15:28",
-      "views": "1439",
+      "views": "1825",
       "content_url": "/cmsweb35rc67w/hebi/htysgg/htgg/webinfo/2026/07/1995340.htm",
       "body_html": "",
       "category": "中标"
@@ -750,7 +1650,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 15:19",
-      "views": "1437",
+      "views": "1848",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1995311.htm",
       "body_html": "",
       "category": "招标"
@@ -769,7 +1669,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 15:18",
-      "views": "1402",
+      "views": "1811",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1995310.htm",
       "body_html": "",
       "category": "招标"
@@ -787,7 +1687,7 @@
       "city": "省级",
       "agency": "郑州大学第一附属医院",
       "pub_time": "2026-07-31 15:15",
-      "views": "1840",
+      "views": "2438",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/07/31/1995303.htm",
       "body_html": "",
       "category": "招标"
@@ -803,7 +1703,7 @@
       "city": "漯河",
       "agency": "舞阳县人民医院",
       "pub_time": "2026-07-31 14:46",
-      "views": "1642",
+      "views": "2061",
       "content_url": "/cmsweb35rc67w/luohe/cgxx/cgyx/webinfo/2026/07/1995269.htm",
       "body_html": "",
       "category": "招标"
@@ -821,7 +1721,7 @@
       "city": "三门峡",
       "agency": "灵宝市教育保障服务中心（灵宝市学生资助中心）",
       "pub_time": "2026-07-31 14:35",
-      "views": "1596",
+      "views": "1968",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/bggg/webinfo/2026/07/1995256.htm",
       "body_html": "",
       "category": "终止"
@@ -839,7 +1739,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-31 14:24",
-      "views": "1541",
+      "views": "1950",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1995247.htm",
       "body_html": "",
       "category": "招标"
@@ -857,7 +1757,7 @@
       "city": "安阳",
       "agency": "滑县教育局",
       "pub_time": "2026-07-31 13:23",
-      "views": "1741",
+      "views": "2175",
       "content_url": "/cmsweb35rc67w/huaxian/cgxx/cggg/webinfo/2026/07/1995214.htm",
       "body_html": "",
       "category": "招标"
@@ -876,7 +1776,7 @@
       "city": "安阳",
       "agency": "安阳县水利局",
       "pub_time": "2026-07-31 13:12",
-      "views": "1722",
+      "views": "2131",
       "content_url": "/cmsweb35rc67w/anyang/cgxx/cggg/webinfo/2026/07/1995216.htm",
       "body_html": "",
       "category": "招标"
@@ -894,7 +1794,7 @@
       "city": "南阳",
       "agency": "南召县城郊乡中心学校",
       "pub_time": "2026-07-31 13:11",
-      "views": "1526",
+      "views": "1884",
       "content_url": "/cmsweb35rc67w/nanyang/htysgg/htgg/webinfo/2026/07/1995210.htm",
       "body_html": "",
       "category": "中标"
@@ -910,7 +1810,7 @@
       "city": "洛阳",
       "agency": "伊川县人民医院",
       "pub_time": "2026-07-31 12:53",
-      "views": "1908",
+      "views": "2349",
       "content_url": "/cmsweb35rc67w/yichuan/cgxx/fbgg/webinfo/2026/07/1995202.htm",
       "body_html": "",
       "category": "终止"
@@ -928,7 +1828,7 @@
       "city": "省级",
       "agency": "河南科技大学第一附属医院",
       "pub_time": "2026-07-31 12:25",
-      "views": "1771",
+      "views": "2198",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/31/1995191.htm",
       "body_html": "",
       "category": "中标"
@@ -947,7 +1847,7 @@
       "city": "安阳",
       "agency": "安阳县县直医院",
       "pub_time": "2026-07-31 11:53",
-      "views": "1596",
+      "views": "1946",
       "content_url": "/cmsweb35rc67w/anyang/htysgg/htgg/webinfo/2026/07/1995176.htm",
       "body_html": "",
       "category": "中标"
@@ -963,7 +1863,7 @@
       "city": "省级",
       "agency": "河南科技大学第一附属医院",
       "pub_time": "2026-07-31 11:52",
-      "views": "1673",
+      "views": "2063",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/31/1995175.htm",
       "body_html": "",
       "category": "中标"
@@ -979,7 +1879,7 @@
       "city": "商丘",
       "agency": "商丘市第二人民医院",
       "pub_time": "2026-07-31 11:52",
-      "views": "1941",
+      "views": "2380",
       "content_url": "/cmsweb35rc67w/shangqiu/cgxx/cgyx/webinfo/2026/07/1995174.htm",
       "body_html": "",
       "category": "招标"
@@ -1000,7 +1900,7 @@
       "city": "省级",
       "agency": "河南科技大学第一附属医院",
       "pub_time": "2026-07-31 11:51",
-      "views": "1794",
+      "views": "2208",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/31/1995164.htm",
       "body_html": "",
       "category": "中标"
@@ -1016,7 +1916,7 @@
       "city": "洛阳",
       "agency": "洛阳市洛龙区龙门镇卫生院",
       "pub_time": "2026-07-31 11:50",
-      "views": "1991",
+      "views": "2423",
       "content_url": "/cmsweb35rc67w/lysllq/cgxx/cgyx/webinfo/2026/07/1995171.htm",
       "body_html": "",
       "category": "招标"
@@ -1034,7 +1934,7 @@
       "city": "许昌",
       "agency": "许昌市中心医院",
       "pub_time": "2026-07-31 11:39",
-      "views": "1813",
+      "views": "2238",
       "content_url": "/cmsweb35rc67w/xuchang/cgxx/fbgg/webinfo/2026/07/1995157.htm",
       "body_html": "",
       "category": "终止"
@@ -1050,7 +1950,7 @@
       "city": "省级",
       "agency": "郑州大学第一附属医院",
       "pub_time": "2026-07-31 11:38",
-      "views": "1991",
+      "views": "2472",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/07/31/1995154.htm",
       "body_html": "",
       "category": "招标"
@@ -1068,7 +1968,7 @@
       "city": "许昌",
       "agency": "许昌市中心医院",
       "pub_time": "2026-07-31 11:34",
-      "views": "1564",
+      "views": "1931",
       "content_url": "/cmsweb35rc67w/xuchang/cgxx/cggg/webinfo/2026/07/1995156.htm",
       "body_html": "",
       "category": "招标"
@@ -1086,26 +1986,8 @@
       "city": "三门峡",
       "agency": "渑池县天池镇人民政府",
       "pub_time": "2026-07-31 11:24",
-      "views": "1547",
+      "views": "1925",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/jggg/webinfo/2026/07/1995128.htm",
-      "body_html": "",
-      "category": "中标"
-    },
-    {
-      "title": "宝丰县公安局办公设备采购",
-      "info_id": "1995098",
-      "channel_code": "D481401",
-      "announce_type": "合同公告",
-      "region": "平顶山市宝丰县",
-      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995098&channelCode=D481401",
-      "matched_eq": [
-        "设备采购"
-      ],
-      "city": "平顶山",
-      "agency": "宝丰县公安局",
-      "pub_time": "2026-07-31 10:56",
-      "views": "1357",
-      "content_url": "/cmsweb35rc67w/pdsbfx/htysgg/htgg/webinfo/2026/07/1995098.htm",
       "body_html": "",
       "category": "中标"
     },
@@ -1123,7 +2005,7 @@
       "city": "省级",
       "agency": "河南省浉河监狱",
       "pub_time": "2026-07-31 10:54",
-      "views": "1496",
+      "views": "1951",
       "content_url": "/cmsweb35rc67w/henan/htysgg/ysgg/webinfo/2026/07/1995084.htm",
       "body_html": "",
       "category": "其他"
@@ -1139,7 +2021,7 @@
       "city": "周口",
       "agency": "周口市第一人民医院",
       "pub_time": "2026-07-31 10:42",
-      "views": "1684",
+      "views": "2050",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cgyx/webinfo/2026/07/1995078.htm",
       "body_html": "",
       "category": "招标"
@@ -1157,7 +2039,7 @@
       "city": "周口",
       "agency": "周口市黄泛区农场中心医院",
       "pub_time": "2026-07-31 10:41",
-      "views": "1685",
+      "views": "2032",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/fbgg/webinfo/2026/07/1995076.htm",
       "body_html": "",
       "category": "终止"
@@ -1175,7 +2057,7 @@
       "city": "南阳",
       "agency": "南阳市第十五完全学校",
       "pub_time": "2026-07-31 10:38",
-      "views": "1438",
+      "views": "1750",
       "content_url": "/cmsweb35rc67w/nanyang/htysgg/htgg/webinfo/2026/07/1995062.htm",
       "body_html": "",
       "category": "中标"
@@ -1191,7 +2073,7 @@
       "city": "信阳",
       "agency": "潢川县人民医院",
       "pub_time": "2026-07-31 10:33",
-      "views": "1744",
+      "views": "2115",
       "content_url": "/cmsweb35rc67w/huangchuan/cgxx/bggg/webinfo/2026/07/1995068.htm",
       "body_html": "",
       "category": "终止"
@@ -1209,7 +2091,7 @@
       "city": "省级",
       "agency": "河南省生态环境监测和安全中心",
       "pub_time": "2026-07-31 10:09",
-      "views": "1583",
+      "views": "1881",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/31/1995048.htm",
       "body_html": "",
       "category": "中标"
@@ -1225,7 +2107,7 @@
       "city": "郑州",
       "agency": "郑州市第三人民医院",
       "pub_time": "2026-07-31 10:06",
-      "views": "1803",
+      "views": "2226",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cgyx/webinfo/2026/07/1995023.htm",
       "body_html": "",
       "category": "招标"
@@ -1241,7 +2123,7 @@
       "city": "洛阳",
       "agency": "洛阳市偃师区卫生健康委员会",
       "pub_time": "2026-07-31 09:55",
-      "views": "542",
+      "views": "658",
       "content_url": "/cmsweb35rc67w/lysyss/htjysgg/htgg/webinfo/2026/07/1995028.htm",
       "body_html": "",
       "category": "中标"
@@ -1257,7 +2139,7 @@
       "city": "濮阳",
       "agency": "清丰县人民医院",
       "pub_time": "2026-07-31 09:55",
-      "views": "2049",
+      "views": "2493",
       "content_url": "/cmsweb35rc67w/qingfeng/cgxx/cgyx/webinfo/2026/07/1995019.htm",
       "body_html": "",
       "category": "招标"
@@ -1276,7 +2158,7 @@
       "city": "安阳",
       "agency": "安阳县水利局",
       "pub_time": "2026-07-31 09:54",
-      "views": "736",
+      "views": "900",
       "content_url": "/cmsweb35rc67w/anyang/cgxx/fbgg/webinfo/2026/07/1995026.htm",
       "body_html": "",
       "category": "终止"
@@ -1294,7 +2176,7 @@
       "city": "周口",
       "agency": "周口市第六人民医院",
       "pub_time": "2026-07-31 09:51",
-      "views": "1908",
+      "views": "2468",
       "content_url": "/cmsweb35rc67w/zhoukou/qtgg/dyly/webinfo/2026/07/1995014.htm",
       "body_html": "",
       "category": "其他"
@@ -1312,7 +2194,7 @@
       "city": "开封",
       "agency": "河南焦裕禄干部学院",
       "pub_time": "2026-07-31 09:49",
-      "views": "590",
+      "views": "731",
       "content_url": "/cmsweb35rc67w/lankao/htjysgg/htgg/webinfo/2026/07/1995003.htm",
       "body_html": "",
       "category": "中标"
@@ -1328,7 +2210,7 @@
       "city": "省级",
       "agency": "河南医药大学第三附属医院",
       "pub_time": "2026-07-31 09:43",
-      "views": "1990",
+      "views": "2495",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/07/1995000.htm",
       "body_html": "",
       "category": "招标"
@@ -1346,7 +2228,7 @@
       "city": "开封",
       "agency": "河南焦裕禄干部学院",
       "pub_time": "2026-07-31 09:22",
-      "views": "605",
+      "views": "738",
       "content_url": "/cmsweb35rc67w/lankao/htjysgg/htgg/webinfo/2026/07/1994978.htm",
       "body_html": "",
       "category": "中标"
@@ -1364,7 +2246,7 @@
       "city": "省级",
       "agency": "河南省南阳市中级人民法院",
       "pub_time": "2026-07-31 09:09",
-      "views": "1506",
+      "views": "1941",
       "content_url": "/cmsweb35rc67w/henan/htysgg/ysgg/webinfo/2026/07/1994954.htm",
       "body_html": "",
       "category": "其他"
@@ -1382,7 +2264,7 @@
       "city": "信阳",
       "agency": "新县疾病预防控制中心",
       "pub_time": "2026-07-31 09:04",
-      "views": "1924",
+      "views": "2370",
       "content_url": "/cmsweb35rc67w/xxsxx/cgxx/cggg/webinfo/2026/07/1994953.htm",
       "body_html": "",
       "category": "招标"
@@ -1398,7 +2280,7 @@
       "city": "省级",
       "agency": "河南省洛阳正骨医院（河南省骨科医院）",
       "pub_time": "2026-07-31 08:45",
-      "views": "1923",
+      "views": "2374",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cgyx/webinfo/2026/07/1994958.htm",
       "body_html": "",
       "category": "招标"
@@ -1417,7 +2299,7 @@
       "city": "省级",
       "agency": "河南省人民医院",
       "pub_time": "2026-07-30 23:43",
-      "views": "1735",
+      "views": "2030",
       "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/07/30/1994944.htm",
       "body_html": "",
       "category": "终止"
@@ -1436,7 +2318,7 @@
       "city": "省级",
       "agency": "河南省人民医院",
       "pub_time": "2026-07-30 20:34",
-      "views": "1872",
+      "views": "2125",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/30/1994915.htm",
       "body_html": "",
       "category": "中标"
@@ -1455,7 +2337,7 @@
       "city": "安阳",
       "agency": "安阳县水利局",
       "pub_time": "2026-07-30 19:05",
-      "views": "2344",
+      "views": "2666",
       "content_url": "/cmsweb35rc67w/anyang/cgxx/cggg/webinfo/2026/07/1994898.htm",
       "body_html": "",
       "category": "招标"
@@ -1473,7 +2355,7 @@
       "city": "平顶山",
       "agency": "叶县粮食和物资储备局",
       "pub_time": "2026-07-30 18:51",
-      "views": "1922",
+      "views": "2184",
       "content_url": "/cmsweb35rc67w/pdsyx/cgxx/jggg/webinfo/2026/07/1994881.htm",
       "body_html": "",
       "category": "中标"
@@ -1491,7 +2373,7 @@
       "city": "信阳",
       "agency": "潢川县疾病预防控制中心",
       "pub_time": "2026-07-30 18:40",
-      "views": "1941",
+      "views": "2191",
       "content_url": "/cmsweb35rc67w/huangchuan/htysgg/htgg/webinfo/2026/07/1994885.htm",
       "body_html": "",
       "category": "中标"
@@ -1511,7 +2393,7 @@
       "city": "省级",
       "agency": "河南省人民医院",
       "pub_time": "2026-07-30 18:13",
-      "views": "1946",
+      "views": "2239",
       "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/07/30/1994852.htm",
       "body_html": "",
       "category": "终止"
@@ -1527,7 +2409,7 @@
       "city": "开封",
       "agency": "开封市人民医院",
       "pub_time": "2026-07-30 18:08",
-      "views": "2304",
+      "views": "2804",
       "content_url": "/cmsweb35rc67w/kaifeng/qtgg/dyly/webinfo/2026/07/1994857.htm",
       "body_html": "",
       "category": "其他"
@@ -1545,7 +2427,7 @@
       "city": "开封",
       "agency": "兰考县民政局",
       "pub_time": "2026-07-30 18:01",
-      "views": "2226",
+      "views": "2540",
       "content_url": "/cmsweb35rc67w/lankao/cgxx/bggg/webinfo/2026/07/1994846.htm",
       "body_html": "",
       "category": "终止"
@@ -1563,7 +2445,7 @@
       "city": "洛阳",
       "agency": "洛阳市偃师区消防救援大队",
       "pub_time": "2026-07-30 17:44",
-      "views": "2291",
+      "views": "2597",
       "content_url": "/cmsweb35rc67w/lysyss/cgxx/cggg/webinfo/2026/07/1994819.htm",
       "body_html": "",
       "category": "招标"
@@ -1581,7 +2463,7 @@
       "city": "南阳",
       "agency": "淅川县第一幼儿园",
       "pub_time": "2026-07-30 17:28",
-      "views": "1745",
+      "views": "1947",
       "content_url": "/cmsweb35rc67w/nanyang/htysgg/htgg/webinfo/2026/07/1994780.htm",
       "body_html": "",
       "category": "中标"
@@ -1597,7 +2479,7 @@
       "city": "省级",
       "agency": "阜外华中心血管病医院",
       "pub_time": "2026-07-30 17:25",
-      "views": "2094",
+      "views": "2420",
       "content_url": "/cmsweb35rc67w/henan/cgxx/bggg/webinfo/2026/07/30/1994777.htm",
       "body_html": "",
       "category": "终止"
@@ -1615,7 +2497,7 @@
       "city": "信阳",
       "agency": "信阳市中心医院",
       "pub_time": "2026-07-30 17:25",
-      "views": "1848",
+      "views": "2088",
       "content_url": "/cmsweb35rc67w/xinyang/htysgg/htgg/webinfo/2026/07/1994770.htm",
       "body_html": "",
       "category": "中标"
@@ -1633,7 +2515,7 @@
       "city": "焦作",
       "agency": "温县第二人民医院",
       "pub_time": "2026-07-30 17:24",
-      "views": "1944",
+      "views": "2207",
       "content_url": "/cmsweb35rc67w/jiaozuo/cgxx/jggg/webinfo/2026/07/1994776.htm",
       "body_html": "",
       "category": "中标"
@@ -1652,7 +2534,7 @@
       "city": "驻马店",
       "agency": "新蔡县人民医院",
       "pub_time": "2026-07-30 17:23",
-      "views": "2127",
+      "views": "2417",
       "content_url": "/cmsweb35rc67w/xincai/cgxx/bggg/webinfo/2026/07/1994767.htm",
       "body_html": "",
       "category": "终止"
@@ -1668,7 +2550,7 @@
       "city": "开封",
       "agency": "尉氏县门楼任卫生院",
       "pub_time": "2026-07-30 17:21",
-      "views": "1838",
+      "views": "2087",
       "content_url": "/cmsweb35rc67w/kaifeng/cgxx/cgyx/webinfo/2026/07/1994754.htm",
       "body_html": "",
       "category": "招标"
@@ -1686,7 +2568,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 17:21",
-      "views": "1960",
+      "views": "2217",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1994758.htm",
       "body_html": "",
       "category": "招标"
@@ -1702,7 +2584,7 @@
       "city": "三门峡",
       "agency": "渑池县妇幼保健院",
       "pub_time": "2026-07-30 17:20",
-      "views": "2005",
+      "views": "2327",
       "content_url": "/cmsweb35rc67w/sanmenxia/cgxx/cgyx/webinfo/2026/07/1994757.htm",
       "body_html": "",
       "category": "招标"
@@ -1720,7 +2602,7 @@
       "city": "平顶山",
       "agency": "叶县公路事业发展中心",
       "pub_time": "2026-07-30 17:13",
-      "views": "2027",
+      "views": "2277",
       "content_url": "/cmsweb35rc67w/pdsyx/cgxx/fbgg/webinfo/2026/07/1994738.htm",
       "body_html": "",
       "category": "终止"
@@ -1738,7 +2620,7 @@
       "city": "周口",
       "agency": "项城市第一人民医院",
       "pub_time": "2026-07-30 17:13",
-      "views": "1728",
+      "views": "1915",
       "content_url": "/cmsweb35rc67w/zhoukou/htysgg/htgg/webinfo/2026/07/1994739.htm",
       "body_html": "",
       "category": "中标"
@@ -1757,7 +2639,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 17:11",
-      "views": "1990",
+      "views": "2255",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1994730.htm",
       "body_html": "",
       "category": "终止"
@@ -1773,7 +2655,7 @@
       "city": "驻马店",
       "agency": "确山县卫生健康体育委员会",
       "pub_time": "2026-07-30 17:09",
-      "views": "1780",
+      "views": "2016",
       "content_url": "/cmsweb35rc67w/zhumadian/cgxx/jggg/webinfo/2026/07/1994722.htm",
       "body_html": "",
       "category": "中标"
@@ -1791,7 +2673,7 @@
       "city": "郑州",
       "agency": "郑州市第三人民医院",
       "pub_time": "2026-07-30 17:06",
-      "views": "1896",
+      "views": "2146",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1994717.htm",
       "body_html": "",
       "category": "招标"
@@ -1807,7 +2689,7 @@
       "city": "南阳",
       "agency": "淅川县人民医院",
       "pub_time": "2026-07-30 17:05",
-      "views": "2151",
+      "views": "2444",
       "content_url": "/cmsweb35rc67w/nanyang/cgxx/cgyx/webinfo/2026/07/1994702.htm",
       "body_html": "",
       "category": "招标"
@@ -1825,7 +2707,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 17:00",
-      "views": "1893",
+      "views": "2152",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1994706.htm",
       "body_html": "",
       "category": "终止"
@@ -1844,7 +2726,7 @@
       "city": "洛阳",
       "agency": "伊川县中医院",
       "pub_time": "2026-07-30 16:53",
-      "views": "2378",
+      "views": "2683",
       "content_url": "/cmsweb35rc67w/yichuan/cgxx/cggg/webinfo/2026/07/1994688.htm",
       "body_html": "",
       "category": "招标"
@@ -1862,7 +2744,7 @@
       "city": "周口",
       "agency": "商水县中医院",
       "pub_time": "2026-07-30 16:52",
-      "views": "2160",
+      "views": "2437",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cggg/webinfo/2026/07/1994680.htm",
       "body_html": "",
       "category": "招标"
@@ -1880,7 +2762,7 @@
       "city": "洛阳",
       "agency": "嵩县教育体育局",
       "pub_time": "2026-07-30 16:48",
-      "views": "2151",
+      "views": "2425",
       "content_url": "/cmsweb35rc67w/lyssx/cgxx/cggg/webinfo/2026/07/1994677.htm",
       "body_html": "",
       "category": "招标"
@@ -1899,7 +2781,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 16:46",
-      "views": "1928",
+      "views": "2171",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1994671.htm",
       "body_html": "",
       "category": "终止"
@@ -1918,7 +2800,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 16:40",
-      "views": "1870",
+      "views": "2126",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1994663.htm",
       "body_html": "",
       "category": "终止"
@@ -1936,7 +2818,7 @@
       "city": "郑州",
       "agency": "郑州市中心医院",
       "pub_time": "2026-07-30 16:35",
-      "views": "1898",
+      "views": "2152",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/fbgg/webinfo/2026/07/1994643.htm",
       "body_html": "",
       "category": "终止"
@@ -1952,7 +2834,7 @@
       "city": "周口",
       "agency": "西华县中医院",
       "pub_time": "2026-07-30 16:29",
-      "views": "1939",
+      "views": "2193",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cgyx/webinfo/2026/07/1994638.htm",
       "body_html": "",
       "category": "招标"
@@ -1970,7 +2852,7 @@
       "city": "周口",
       "agency": "周口市第二人民医院(周口市老年医院）",
       "pub_time": "2026-07-30 16:29",
-      "views": "1961",
+      "views": "2217",
       "content_url": "/cmsweb35rc67w/zhoukou/cgxx/bggg/webinfo/2026/07/1994628.htm",
       "body_html": "",
       "category": "终止"
@@ -1988,7 +2870,7 @@
       "city": "周口",
       "agency": "周口市淮阳区农业农村局",
       "pub_time": "2026-07-30 16:24",
-      "views": "1710",
+      "views": "1864",
       "content_url": "/cmsweb35rc67w/zhoukou/htysgg/htgg/webinfo/2026/07/1994616.htm",
       "body_html": "",
       "category": "中标"
@@ -2006,7 +2888,7 @@
       "city": "省级",
       "agency": "河南护理职业学院",
       "pub_time": "2026-07-30 16:23",
-      "views": "1985",
+      "views": "2252",
       "content_url": "/cmsweb35rc67w/henan/cgxx/henan/cgxx/fbgg/webinfo/2026/07/1994612.htm",
       "body_html": "",
       "category": "终止"
@@ -2024,7 +2906,7 @@
       "city": "省级",
       "agency": "河南护理职业学院",
       "pub_time": "2026-07-30 16:22",
-      "views": "1994",
+      "views": "2170",
       "content_url": "/cmsweb35rc67w/henan/cgxx/jggg/webinfo/2026/07/30/1994611.htm",
       "body_html": "",
       "category": "中标"
@@ -2042,7 +2924,7 @@
       "city": "洛阳",
       "agency": "洛宁县教育体育局",
       "pub_time": "2026-07-30 16:14",
-      "views": "2162",
+      "views": "2423",
       "content_url": "/cmsweb35rc67w/lyslnx/cgxx/cggg/webinfo/2026/07/1994591.htm",
       "body_html": "",
       "category": "招标"
@@ -2058,7 +2940,7 @@
       "city": "洛阳",
       "agency": "洛阳市中心医院",
       "pub_time": "2026-07-30 16:07",
-      "views": "2461",
+      "views": "2824",
       "content_url": "/cmsweb35rc67w/luoyang/zgxx/cgyx/webinfo/2026/07/1994579.htm",
       "body_html": "",
       "category": "招标"
@@ -2074,7 +2956,7 @@
       "city": "驻马店",
       "agency": "驻马店市第二人民医院（驻马店市精神病医院）",
       "pub_time": "2026-07-30 16:03",
-      "views": "2223",
+      "views": "2355",
       "content_url": "/cmsweb35rc67w/zhumadian/htysgg/htgg/webinfo/2026/07/1994570.htm",
       "body_html": "",
       "category": "中标"
@@ -2090,7 +2972,7 @@
       "city": "平顶山",
       "agency": "叶县人民医院",
       "pub_time": "2026-07-30 16:01",
-      "views": "1660",
+      "views": "1861",
       "content_url": "/cmsweb35rc67w/pdsyx/cgxx/jggg/webinfo/2026/07/1994567.htm",
       "body_html": "",
       "category": "中标"
@@ -2108,7 +2990,7 @@
       "city": "郑州",
       "agency": "巩义市教育局",
       "pub_time": "2026-07-30 15:53",
-      "views": "1648",
+      "views": "1852",
       "content_url": "/cmsweb35rc67w/gongyi/cgxx/jggg/webinfo/2026/07/1994555.htm",
       "body_html": "",
       "category": "中标"
@@ -2124,7 +3006,7 @@
       "city": "省级",
       "agency": "河南省焦作监狱",
       "pub_time": "2026-07-30 15:52",
-      "views": "2095",
+      "views": "2297",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/07/30/1994542.htm",
       "body_html": "",
       "category": "招标"
@@ -2142,7 +3024,7 @@
       "city": "郑州",
       "agency": "河南省伟信招标管理咨询有限公司",
       "pub_time": "2026-07-30 15:51",
-      "views": "2288",
+      "views": "2771",
       "content_url": "/cmsweb35rc67w/shangjie/qtgg/dyly/webinfo/2026/07/1994539.htm",
       "body_html": "",
       "category": "其他"
@@ -2160,7 +3042,7 @@
       "city": "省级",
       "agency": "河南省肿瘤医院",
       "pub_time": "2026-07-30 15:42",
-      "views": "1889",
+      "views": "2166",
       "content_url": "/cmsweb35rc67w/henan/cgxx/henan/cgxx/fbgg/webinfo/2026/07/1994514.htm",
       "body_html": "",
       "category": "终止"
@@ -2178,7 +3060,7 @@
       "city": "漯河",
       "agency": "漯河市源汇区人民医院",
       "pub_time": "2026-07-30 15:39",
-      "views": "1892",
+      "views": "2119",
       "content_url": "/cmsweb35rc67w/luohe/cgxx/cggg/webinfo/2026/07/1994518.htm",
       "body_html": "",
       "category": "招标"
@@ -2194,7 +3076,7 @@
       "city": "洛阳",
       "agency": "洛阳市中心医院",
       "pub_time": "2026-07-30 15:37",
-      "views": "2284",
+      "views": "2636",
       "content_url": "/cmsweb35rc67w/luoyang/zgxx/cgyx/webinfo/2026/07/1994516.htm",
       "body_html": "",
       "category": "招标"
@@ -2212,7 +3094,7 @@
       "city": "南阳",
       "agency": "唐河县教育装备与技术保障中心",
       "pub_time": "2026-07-30 15:36",
-      "views": "1793",
+      "views": "2032",
       "content_url": "/cmsweb35rc67w/nanyang/cgxx/cggg/webinfo/2026/07/1994503.htm",
       "body_html": "",
       "category": "招标"
@@ -2230,7 +3112,7 @@
       "city": "郑州",
       "agency": "郑州市第二高级中学",
       "pub_time": "2026-07-30 15:32",
-      "views": "1709",
+      "views": "1937",
       "content_url": "/cmsweb35rc67w/zhengzhou/cgxx/cggg/webinfo/2026/07/1994491.htm",
       "body_html": "",
       "category": "招标"
@@ -2248,7 +3130,7 @@
       "city": "焦作",
       "agency": "孟州市城市管理局",
       "pub_time": "2026-07-30 15:29",
-      "views": "1986",
+      "views": "2229",
       "content_url": "/cmsweb35rc67w/jiaozuo/cgxx/cggg/webinfo/2026/07/1994489.htm",
       "body_html": "",
       "category": "招标"
@@ -2266,7 +3148,7 @@
       "city": "平顶山",
       "agency": "郏县第二人民医院",
       "pub_time": "2026-07-30 15:20",
-      "views": "2148",
+      "views": "2459",
       "content_url": "/cmsweb35rc67w/pdsjx/cgxx/jggg/webinfo/2026/07/1994479.htm",
       "body_html": "",
       "category": "中标"
@@ -2284,7 +3166,7 @@
       "city": "洛阳",
       "agency": "河南省洛阳市疾病预防控制中心",
       "pub_time": "2026-07-30 15:20",
-      "views": "1736",
+      "views": "1915",
       "content_url": "/cmsweb35rc67w/luoyang/htysgg/htgg/webinfo/2026/07/1994472.htm",
       "body_html": "",
       "category": "中标"
@@ -2303,10 +3185,78 @@
       "city": "省级",
       "agency": "河南省肿瘤医院",
       "pub_time": "2026-07-30 15:14",
-      "views": "1987",
+      "views": "2190",
       "content_url": "/cmsweb35rc67w/henan/cgxx/cggg/webinfo/2026/07/30/1994464.htm",
       "body_html": "",
       "category": "招标"
+    },
+    {
+      "title": "商丘市中心血站无偿献血纪念品采购项目",
+      "info_id": "1995754",
+      "channel_code": "H751401",
+      "announce_type": "合同公告",
+      "region": "商丘市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995754&channelCode=H751401",
+      "matched_eq": [],
+      "city": "商丘",
+      "agency": "商丘市中心血站",
+      "pub_time": "2026-07-31 18:13",
+      "views": "1619",
+      "content_url": "/cmsweb35rc67w/shangqiu/htysgg/htgg/webinfo/2026/07/1995754.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "实验实训设备采购",
+      "info_id": "1995664",
+      "channel_code": "H781401",
+      "announce_type": "合同公告",
+      "region": "驻马店市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995664&channelCode=H781401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "驻马店",
+      "agency": "驻马店农业工程职业学院",
+      "pub_time": "2026-07-31 17:31",
+      "views": "2023",
+      "content_url": "/cmsweb35rc67w/zhumadian/htysgg/htgg/webinfo/2026/07/1995664.htm",
+      "body_html": "",
+      "category": "中标"
+    },
+    {
+      "title": "项城市第一人民医院2026年7至9月政府采购意向",
+      "info_id": "1995581",
+      "channel_code": "H770607",
+      "announce_type": "采购意向",
+      "region": "周口市政府",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995581&channelCode=H770607",
+      "matched_eq": [],
+      "city": "周口",
+      "agency": "项城市第一人民医院",
+      "pub_time": "2026-07-31 17:01",
+      "views": "1529",
+      "content_url": "/cmsweb35rc67w/zhoukou/cgxx/cgyx/webinfo/2026/07/1995581.htm",
+      "body_html": "",
+      "category": "招标"
+    },
+    {
+      "title": "宝丰县公安局办公设备采购",
+      "info_id": "1995098",
+      "channel_code": "D481401",
+      "announce_type": "合同公告",
+      "region": "平顶山市宝丰县",
+      "detail_url": "https://zfcg.henan.gov.cn/henan/content?infoId=1995098&channelCode=D481401",
+      "matched_eq": [
+        "设备采购"
+      ],
+      "city": "平顶山",
+      "agency": "宝丰县公安局",
+      "pub_time": "2026-07-31 10:56",
+      "views": "1357",
+      "content_url": "/cmsweb35rc67w/pdsbfx/htysgg/htgg/webinfo/2026/07/1995098.htm",
+      "body_html": "",
+      "category": "中标"
     },
     {
       "title": "河南省新郑市第二中学学生课桌凳等教学设备购置项目-竞争性磋商公告",
