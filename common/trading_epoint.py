@@ -23,20 +23,29 @@ def crawl_epoint(source, config):
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    api_url = f"{base}{project_name}/rest/frontAppCustomAction/getPageInfoListNewYzm"
+    # Choose API endpoint (varies by site)
+    api_path = source.get("api_path", "/rest/frontAppCustomAction/getPageInfoListNewYzm")
+    api_url = f"{base}{project_name}{api_path}"
     all_items = []
+
+    # Parameter names also vary
+    param_map = source.get("param_map", {})
+    cat_key = param_map.get("category", "categoryNum")
+    page_key = param_map.get("pageIndex", "pageIndex")
+    size_key = param_map.get("pageSize", "pageSize")
+    kw_key = param_map.get("kw", "kw")
 
     print(f"    分类: {category}")
 
     for page in range(MAX_PAGES):
         data = {
             "siteGuid": site_guid,
-            "categoryNum": category,
-            "kw": "",
+            cat_key: category,
+            kw_key: "",
             "startDate": "",
             "endDate": "",
-            "pageIndex": page,
-            "pageSize": PAGE_SIZE,
+            page_key: page,
+            size_key: PAGE_SIZE,
             "jytype": "",
         }
         if xiaqucode:

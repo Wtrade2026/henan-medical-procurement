@@ -13,9 +13,21 @@
         {"name": "新乡市政府采购网", "type": "procurement", "base_url": "https://xinxiang.zfcg.henan.gov.cn", "path": "xinxiang", "enabled": true},
         {"name": "焦作市政府采购网", "type": "procurement", "base_url": "https://jiaozuo.zfcg.henan.gov.cn", "path": "jiaozuo", "enabled": true},
         {"name": "濮阳市政府采购网", "type": "procurement", "base_url": "https://puyang.zfcg.henan.gov.cn", "path": "puyang", "enabled": true},
+
         {"name": "开封市公共资源交易中心", "type": "trading_center_xinyuan", "base_url": "http://www.kfsggzyjyw.cn", "city": "开封",
          "prefixes": ["/zcgkfs/","/zcgqx/","/zcgtxx/","/zcgwsx/","/zcgxfq/","/LKXzcgg/"],
-         "enabled": true}
+         "enabled": true},
+
+        {"name": "郑州市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "https://zzggzy.zhengzhou.gov.cn", "city": "郑州",
+         "project_name": "/zzggzy", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false},
+        {"name": "洛阳市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "https://lyggzyjy.ly.gov.cn", "city": "洛阳",
+         "project_name": "/EWB-FRONT", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false},
+        {"name": "安阳市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "https://ggzy.anyang.gov.cn", "city": "安阳",
+         "project_name": "/EWB-FRONT", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "001002002", "enabled": false},
+        {"name": "新乡市公共资源交易中心 (Epoint-404)", "type": "trading_center_epoint", "base_url": "https://ggzy.xinxiang.gov.cn", "city": "新乡",
+         "project_name": "/EpointWebBuilder_new", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false},
+        {"name": "焦作市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "https://ggzy.jiaozuo.gov.cn", "city": "焦作",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false}
     ],
     "output_file": "output/person-b.json"
 }

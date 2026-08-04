@@ -12,7 +12,27 @@
         {"name": "信阳市政府采购网", "type": "procurement", "base_url": "https://xinyang.zfcg.henan.gov.cn", "path": "xinyang", "enabled": true},
         {"name": "周口市政府采购网", "type": "procurement", "base_url": "https://zhoukou.zfcg.henan.gov.cn", "path": "zhoukou", "enabled": true},
         {"name": "驻马店市政府采购网", "type": "procurement", "base_url": "https://zhumadian.zfcg.henan.gov.cn", "path": "zhumadian", "enabled": true},
-        {"name": "济源市政府采购网", "type": "procurement", "base_url": "https://jiyuan.zfcg.henan.gov.cn", "path": "jiyuan", "enabled": true}
+        {"name": "济源市政府采购网", "type": "procurement", "base_url": "https://jiyuan.zfcg.henan.gov.cn", "path": "jiyuan", "enabled": true},
+
+        {"name": "许昌市公共资源交易中心", "type": "trading_center_epoint", "base_url": "https://ggzy.xuchang.gov.cn", "city": "许昌",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001",
+         "api_path": "/rest/secaction/getSecInfoListYzm", "param_map": {"kw": "content"}, "enabled": true},
+
+        {"name": "三门峡市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "http://gzjy.smx.gov.cn", "city": "三门峡",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false},
+
+        {"name": "南阳市公共资源交易中心", "type": "trading_center_epoint", "base_url": "https://ggzyjy.nanyang.gov.cn", "city": "南阳",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001",
+         "api_path": "/rest/secaction/getSecInfoListYzm", "param_map": {"kw": "content"}, "enabled": true},
+
+        {"name": "信阳市公共资源交易中心 (Bad Request-待排查)", "type": "trading_center_epoint", "base_url": "https://ggzyjy.xinyang.gov.cn", "city": "信阳",
+         "project_name": "/TPFront", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false},
+
+        {"name": "周口市公共资源交易中心", "type": "trading_center_epoint", "base_url": "http://jyzx.zhoukou.gov.cn", "city": "周口",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": true},
+
+        {"name": "济源市公共资源交易中心 (Epoint-WAF封锁)", "type": "trading_center_epoint", "base_url": "http://ggzyjy.jiyuan.gov.cn", "city": "济源",
+         "project_name": "/EpointWebBuilder", "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a", "category": "002002001", "enabled": false}
     ],
     "output_file": "output/person-c.json"
 }
