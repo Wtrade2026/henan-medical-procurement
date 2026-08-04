@@ -12,6 +12,7 @@ from common.filter import is_medical
 from common.city import fix_city
 from common.classify import classify
 from common.io import load_existing, save_output, merge_items
+from common.dashboard import build_dashboard
 from common.trading_xinyuan import crawl_xinyuan, fetch_xinyuan_detail
 from common.trading_epoint import crawl_epoint, fetch_epoint_detail
 
@@ -259,8 +260,13 @@ def main():
     result = save_output(output_file, merged)
     summary = result['summary']
 
+    # 生成本地看板
+    html_path = os.path.join(SCRIPT_DIR, 'output', 'index.html')
+    build_dashboard(output_file, html_path)
+
     print(f"\n{'=' * 55}")
     print(f"✅ 完成! 共 {summary['total']} 条 (本次新增 {len(all_medical)} 条)")
+    print(f"📊 看板: {html_path}")
     print(f"   分类: 招标{summary['categories'].get('招标',0)} "
           f"中标{summary['categories'].get('中标',0)} "
           f"终止{summary['categories'].get('终止',0)} "
