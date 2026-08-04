@@ -1,0 +1,18 @@
+{
+    "person": "C",
+    "filter_mode": "city_list",
+    "my_cities": ["许昌", "漯河", "三门峡", "南阳", "商丘", "信阳", "周口", "驻马店", "济源"],
+    "time_range": 1,
+    "sources": [
+        {"name": "许昌市政府采购网", "type": "procurement", "base_url": "https://xuchang.zfcg.henan.gov.cn", "path": "xuchang", "enabled": true},
+        {"name": "漯河市政府采购网", "type": "procurement", "base_url": "https://luohe.zfcg.henan.gov.cn", "path": "luohe", "enabled": true},
+        {"name": "三门峡市政府采购网", "type": "procurement", "base_url": "https://sanmenxia.zfcg.henan.gov.cn", "path": "sanmenxia", "enabled": true},
+        {"name": "南阳市政府采购网", "type": "procurement", "base_url": "https://nanyang.zfcg.henan.gov.cn", "path": "nanyang", "enabled": true},
+        {"name": "商丘市政府采购网", "type": "procurement", "base_url": "https://shangqiu.zfcg.henan.gov.cn", "path": "shangqiu", "enabled": true},
+        {"name": "信阳市政府采购网", "type": "procurement", "base_url": "https://xinyang.zfcg.henan.gov.cn", "path": "xinyang", "enabled": true},
+        {"name": "周口市政府采购网", "type": "procurement", "base_url": "https://zhoukou.zfcg.henan.gov.cn", "path": "zhoukou", "enabled": true},
+        {"name": "驻马店市政府采购网", "type": "procurement", "base_url": "https://zhumadian.zfcg.henan.gov.cn", "path": "zhumadian", "enabled": true},
+        {"name": "济源市政府采购网", "type": "procurement", "base_url": "https://jiyuan.zfcg.henan.gov.cn", "path": "jiyuan", "enabled": true}
+    ],
+    "output_file": "output/person-c.json"
+}

@@ -1,0 +1,18 @@
+{
+    "person": "B",
+    "filter_mode": "city_list",
+    "my_cities": ["郑州", "开封", "洛阳", "平顶山", "安阳", "鹤壁", "新乡", "焦作", "濮阳"],
+    "time_range": 1,
+    "sources": [
+        {"name": "郑州市政府采购网", "type": "procurement", "base_url": "https://zhengzhou.zfcg.henan.gov.cn", "path": "zhengzhou", "enabled": true},
+        {"name": "开封市政府采购网", "type": "procurement", "base_url": "https://kaifeng.zfcg.henan.gov.cn", "path": "kaifeng", "enabled": true},
+        {"name": "洛阳市政府采购网", "type": "procurement", "base_url": "https://luoyang.zfcg.henan.gov.cn", "path": "luoyang", "enabled": true},
+        {"name": "平顶山市政府采购网", "type": "procurement", "base_url": "https://pingdingshan.zfcg.henan.gov.cn", "path": "pingdingshan", "enabled": true},
+        {"name": "安阳市政府采购网", "type": "procurement", "base_url": "https://anyang.zfcg.henan.gov.cn", "path": "anyang", "enabled": true},
+        {"name": "鹤壁市政府采购网", "type": "procurement", "base_url": "https://hebi.zfcg.henan.gov.cn", "path": "hebi", "enabled": true},
+        {"name": "新乡市政府采购网", "type": "procurement", "base_url": "https://xinxiang.zfcg.henan.gov.cn", "path": "xinxiang", "enabled": true},
+        {"name": "焦作市政府采购网", "type": "procurement", "base_url": "https://jiaozuo.zfcg.henan.gov.cn", "path": "jiaozuo", "enabled": true},
+        {"name": "濮阳市政府采购网", "type": "procurement", "base_url": "https://puyang.zfcg.henan.gov.cn", "path": "puyang", "enabled": true}
+    ],
+    "output_file": "output/person-b.json"
+}

@@ -1,0 +1,22 @@
+{
+    "person": "A",
+    "filter_mode": "provincial_only",
+    "time_range": 1,
+    "sources": [
+        {
+            "name": "河南省政府采购网",
+            "type": "procurement",
+            "base_url": "https://zfcg.henan.gov.cn",
+            "path": "henan",
+            "enabled": true
+        },
+        {
+            "name": "河南省公共资源交易中心",
+            "type": "trading_center",
+            "base_url": "http://hnsggzyjy.henan.gov.cn",
+            "path": "",
+            "enabled": false
+        }
+    ],
+    "output_file": "output/person-a.json"
+}
