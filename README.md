@@ -26,17 +26,15 @@ henan-procurement/
 ├── README.md                    # 本文件
 ├── SETUP.md                     # 安装指南（给不懂Python的同事）
 ├── requirements.txt             # pip install -r requirements.txt
-├── install.bat                  # Windows 双击安装依赖
-│
-├── common/                      # 共享核心库
-│   ├── captcha.py               # 政府采购网验证码识别（ddddocr）
-│   ├── parser.py                # 列表页/详情页解析
-│   ├── filter.py                # 医疗设备关键词过滤
-│   ├── city.py                  # 城市归属五级反推
-│   ├── classify.py              # 招标/中标/终止分类
-│   ├── io.py                    # JSON读写合并
-│   ├── trading_xinyuan.py       # 信源平台爬虫（开封/濮阳）
-│   └── trading_epoint.py        # Epoint平台爬虫（省中心/周口/许昌/南阳）
+├── pack.py                       # 一键打包脚本（生成每人独立ZIP）
+├── install.bat                   # Windows 双击安装依赖
+├── common/                       # 共享核心库
+│   ├── captcha.py + parser.py    # 政府采购网验证码+解析
+│   ├── filter.py + city.py       # 医疗关键词+城市判定
+│   ├── classify.py + io.py       # 分类+读写
+│   ├── dashboard.py              # 本地HTML看板生成
+│   ├── trading_xinyuan.py        # 信源平台爬虫（开封/濮阳）
+│   └── trading_epoint.py         # Epoint平台爬虫（REST API）
 │
 ├── person-a/                    # 同事A：省级
 │   ├── config.json              # 配置文件（编辑即用）
@@ -62,13 +60,20 @@ henan-procurement/
 
 ## 快速开始
 
-### 初次使用（同事）
+### 分发（Wayne → 同事）
 
-1. 下载仓库 ZIP 或 `git clone`
-2. 双击 `install.bat` 安装依赖（或 `pip install -r requirements.txt`）
-3. 进入你的文件夹（`person-a` / `person-b` / `person-c`）
-4. 双击 `run.py` 或命令行 `python run.py`
-5. 结果在 `output/` 目录
+```bash
+python3 pack.py   # 在 dist/ 下生成 person-a.zip / person-b.zip / person-c.zip
+```
+
+将对应 ZIP 发给同事即可。
+
+### 同事使用
+
+1. 解压收到的 ZIP
+2. 进入文件夹，双击 **`一键运行.bat`**
+3. 首次运行会自动安装依赖（约2分钟），之后直接跑
+4. 完成后进入 `output/`，双击 `index.html` 查看结果
 
 详细说明见 [SETUP.md](SETUP.md)。
 
