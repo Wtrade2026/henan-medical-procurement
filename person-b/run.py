@@ -177,7 +177,8 @@ def main():
           f"其他{summary['categories'].get('其他',0)}")
     print(f"   保存: {output_file}")
 
-    input("\n按 Enter 退出...")
+    if sys.stdin.isatty():
+        input("\n按 Enter 退出...")
 
 
 if __name__ == '__main__':
