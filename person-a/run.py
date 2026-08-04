@@ -13,6 +13,7 @@ from common.city import fix_city
 from common.classify import classify
 from common.io import load_existing, save_output, merge_items
 from common.trading_xinyuan import crawl_xinyuan, fetch_xinyuan_detail
+from common.trading_epoint import crawl_epoint, fetch_epoint_detail
 
 socket.setdefaulttimeout(25)
 
@@ -181,6 +182,41 @@ def crawl_trading_xinyuan(source, config):
     return medical
 
 
+def crawl_trading_epoint(source, config):
+    """爬取Epoint平台（省/市交易中心REST API），过滤医疗+城市"""
+    items = crawl_epoint(source, config)
+
+    # Medical filter
+    medical = []
+    seen = set()
+    for d in items:
+        ok, eq = is_medical(d["title"])
+        if not ok:
+            continue
+        iid = d.get("info_id", "")
+        if iid in seen:
+            continue
+        seen.add(iid)
+        d["matched_eq"] = eq
+        if not d.get("city"):
+            d["city"] = source.get("city", "")
+        medical.append(d)
+
+    # City filter
+    medical = filter_by_config(medical, config)
+
+    # Fetch details
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    for i, d in enumerate(medical):
+        d = fetch_epoint_detail(session, d)
+        if (i + 1) % 10 == 0:
+            print(f"    详情: {i+1}/{len(medical)}")
+        time.sleep(1)
+
+    return medical
+
+
 def main():
     config = load_config()
     time_labels = {"0": "今日", "1": "近1周", "2": "近1月"}
@@ -207,6 +243,8 @@ def main():
             items = crawl_source(src, config)
         elif src_type == 'trading_center_xinyuan':
             items = crawl_trading_xinyuan(src, config)
+        elif src_type == 'trading_center_epoint':
+            items = crawl_trading_epoint(src, config)
         else:
             print(f"\n⏭ 未知类型 '{src_type}': {src['name']}")
             continue

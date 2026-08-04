@@ -12,10 +12,13 @@
         },
         {
             "name": "河南省公共资源交易中心",
-            "type": "trading_center",
+            "type": "trading_center_epoint",
             "base_url": "http://hnsggzyjy.henan.gov.cn",
-            "path": "",
-            "enabled": false
+            "project_name": "/EpointWebBuilder",
+            "site_guid": "7eb5f7f1-9041-43ad-8e13-8fcb82ea831a",
+            "category": "002005001",
+            "city": "省级",
+            "enabled": true
         }
     ],
     "output_file": "output/person-a.json"
