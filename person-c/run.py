@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """个人招投标数据采集程序 — 双击运行或 python run.py"""
-import sys, os, json, time, socket
+import sys, os, json, time, socket, requests
 from collections import Counter
 
 # 确保可以导入同级的 common 模块
@@ -12,6 +12,7 @@ from common.filter import is_medical
 from common.city import fix_city
 from common.classify import classify
 from common.io import load_existing, save_output, merge_items
+from common.trading_xinyuan import crawl_xinyuan, fetch_xinyuan_detail
 
 socket.setdefaulttimeout(25)
 
@@ -136,6 +137,50 @@ def crawl_source(source, config):
     return medical
 
 
+def crawl_trading_xinyuan(source, config):
+    """爬取信源平台（开封/濮阳等），过滤医疗+城市"""
+    base = source["base_url"].rstrip("/")
+
+    # Build prefix list — one per region/type combo
+    prefixes = source.get("prefixes", [source.get("prefix", "/zcgkfs/")])
+    all_raw = []
+    for pfx in prefixes:
+        src_copy = dict(source)
+        src_copy["prefix"] = pfx
+        items = crawl_xinyuan(src_copy, config)
+        all_raw.extend(items)
+
+    # Medical filter
+    medical = []
+    seen = set()
+    for d in all_raw:
+        ok, eq = is_medical(d["title"])
+        if not ok:
+            continue
+        iid = d.get("info_id", "")
+        if iid in seen:
+            continue
+        seen.add(iid)
+        d["matched_eq"] = eq
+        if not d.get("city"):
+            d["city"] = source.get("city", "")
+        medical.append(d)
+
+    # City filter
+    medical = filter_by_config(medical, config)
+
+    # Fetch details (no captcha needed)
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    for i, d in enumerate(medical):
+        d = fetch_xinyuan_detail(session, d)
+        if (i + 1) % 10 == 0:
+            print(f"    详情: {i+1}/{len(medical)}")
+        time.sleep(1)
+
+    return medical
+
+
 def main():
     config = load_config()
     time_labels = {"0": "今日", "1": "近1周", "2": "近1月"}
@@ -157,7 +202,14 @@ def main():
         if not src.get('enabled', True):
             print(f"\n⏭ 跳过（未启用）: {src['name']}")
             continue
-        items = crawl_source(src, config)
+        src_type = src.get('type', 'procurement')
+        if src_type == 'procurement':
+            items = crawl_source(src, config)
+        elif src_type == 'trading_center_xinyuan':
+            items = crawl_trading_xinyuan(src, config)
+        else:
+            print(f"\n⏭ 未知类型 '{src_type}': {src['name']}")
+            continue
         all_medical.extend(items)
 
     # 合并去重

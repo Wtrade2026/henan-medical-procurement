@@ -12,7 +12,10 @@
         {"name": "鹤壁市政府采购网", "type": "procurement", "base_url": "https://hebi.zfcg.henan.gov.cn", "path": "hebi", "enabled": true},
         {"name": "新乡市政府采购网", "type": "procurement", "base_url": "https://xinxiang.zfcg.henan.gov.cn", "path": "xinxiang", "enabled": true},
         {"name": "焦作市政府采购网", "type": "procurement", "base_url": "https://jiaozuo.zfcg.henan.gov.cn", "path": "jiaozuo", "enabled": true},
-        {"name": "濮阳市政府采购网", "type": "procurement", "base_url": "https://puyang.zfcg.henan.gov.cn", "path": "puyang", "enabled": true}
+        {"name": "濮阳市政府采购网", "type": "procurement", "base_url": "https://puyang.zfcg.henan.gov.cn", "path": "puyang", "enabled": true},
+        {"name": "开封市公共资源交易中心", "type": "trading_center_xinyuan", "base_url": "http://www.kfsggzyjyw.cn", "city": "开封",
+         "prefixes": ["/zcgkfs/","/zcgqx/","/zcgtxx/","/zcgwsx/","/zcgxfq/","/LKXzcgg/"],
+         "enabled": true}
     ],
     "output_file": "output/person-b.json"
 }
