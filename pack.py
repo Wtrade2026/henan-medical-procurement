@@ -43,24 +43,85 @@ def pack(person):
     person_dst = os.path.join(tmp, person)
     shutil.copytree(person_dir, person_dst)
 
-    # 写一个简单的安装+运行脚本
+    # 写一键运行脚本（放在 person 目录内）
     bat_path = os.path.join(tmp, person, "一键运行.bat")
-    with open(bat_path, "w", encoding="gbk") as f:
+    with open(bat_path, "w", encoding="utf-8") as f:
         f.write(f'''@echo off
 chcp 65001 >nul
 title 河南医疗招投标采集 - {person}
-cd /d "%~dp0..\\.."
+cd /d "%~dp0.."
+
+python --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo ========================================
+    echo   未检测到 Python！请先安装：
+    echo   1. 打开 https://www.python.org/downloads/
+    echo   2. 下载并安装（务必勾选 Add to PATH）
+    echo   3. 重新运行本脚本
+    echo ========================================
+    pause
+    exit /b 1
+)
+
 echo ========================================
 echo   河南医疗设备招投标采集 - {person}
 echo ========================================
 echo.
-echo [1/2] 检查并安装依赖...
-pip install -r requirements.txt --quiet
+echo [1/2] 安装依赖（首次约2分钟，之后秒过）...
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+if %errorlevel% neq 0 (
+    echo 清华源失败，尝试默认源...
+    pip install -r requirements.txt
+)
 echo.
-echo [2/2] 开始采集数据...
+echo [2/2] 开始采集...
 cd /d "%~dp0"
 python run.py
 echo.
+echo ========================================
+echo   完成！进入 output 文件夹双击 index.html 查看
+echo ========================================
+pause
+''')
+
+    # 再在根目录写一个快捷方式（用户解压后直接双击这个更方便）
+    root_bat = os.path.join(tmp, f"运行-{person}.bat")
+    with open(root_bat, "w", encoding="utf-8") as f:
+        f.write(f'''@echo off
+chcp 65001 >nul
+title 河南医疗招投标采集 - {person}
+cd /d "%~dp0"
+
+python --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo ========================================
+    echo   未检测到 Python！请先安装：
+    echo   1. 打开 https://www.python.org/downloads/
+    echo   2. 下载并安装（务必勾选 Add to PATH）
+    echo   3. 重新运行本脚本
+    echo ========================================
+    pause
+    exit /b 1
+)
+
+echo ========================================
+echo   河南医疗设备招投标采集 - {person}
+echo ========================================
+echo.
+echo [1/2] 安装依赖（首次约2分钟）...
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+if %errorlevel% neq 0 (
+    echo 在线安装失败，尝试默认源...
+    pip install -r requirements.txt
+)
+echo.
+echo [2/2] 开始采集...
+cd /d "%~dp0{person}"
+python run.py
+echo.
+echo ========================================
+echo   完成！进入 {person}\\output 双击 index.html 查看
+echo ========================================
 pause
 ''')
 
