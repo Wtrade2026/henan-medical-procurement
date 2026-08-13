@@ -16,6 +16,35 @@ SMTP_PORT = 587
 FROM_EMAIL = "3067941938@qq.com"
 TO_EMAIL = "3067941938@qq.com"
 
+# SOCKS5 代理（直连 DNS 失败时使用）
+PROXY_HOST = "192.168.223.1"
+PROXY_PORT = 7894
+
+
+def connect_smtp():
+    """连接 SMTP 服务器，优先直连，失败则走 SOCKS5 代理。"""
+    try:
+        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=30)
+        server._host = SMTP_SERVER
+        server.starttls()
+        return server
+    except Exception as e:
+        print(f"  直连失败({e})，改用 SOCKS5 代理...")
+        import socks
+        s = socks.socksocket()
+        s.set_proxy(socks.SOCKS5, PROXY_HOST, PROXY_PORT)
+        s.settimeout(30)
+        s.connect((SMTP_SERVER, SMTP_PORT))
+        server = smtplib.SMTP()
+        server.sock = s
+        server.file = s.makefile("rb")
+        server._host = SMTP_SERVER
+        server.getreply()  # 220 greeting
+        server.ehlo()
+        server.starttls()
+        server.ehlo()
+        return server
+
 
 def load_password():
     if not os.path.exists(PASSWORD_FILE):
@@ -105,11 +134,13 @@ td a{{color:#1a73e8;text-decoration:none;}}
 def main():
     password = load_password()
 
-    # 1. 运行爬虫
+    # 1. 运行爬虫（数据可能已由 update.sh 更新过；这里仅做增量补充）
     print("运行爬虫...")
     import subprocess
-    subprocess.run(["python3", os.path.join(SCRIPT_DIR, "crawler_city.py"), "1"],
-                   cwd=SCRIPT_DIR, timeout=600)
+    crawler = os.path.join(SCRIPT_DIR, "crawler_province.py")
+    if os.path.exists(crawler):
+        subprocess.run(["python3", crawler, "1"],
+                       cwd=SCRIPT_DIR, timeout=600)
 
     # 2. 生成看板
     print("生成看板...")
@@ -128,10 +159,10 @@ def main():
     msg["To"] = TO_EMAIL
     msg.attach(MIMEText(html, "html", "utf-8"))
 
-    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=30) as server:
-        server.starttls()
-        server.login(FROM_EMAIL, password)
-        server.sendmail(FROM_EMAIL, [TO_EMAIL], msg.as_string())
+    server = connect_smtp()
+    server.login(FROM_EMAIL, password)
+    server.sendmail(FROM_EMAIL, [TO_EMAIL], msg.as_string())
+    server.quit()
 
     # 5. 推送 GitHub
     print("推送 GitHub...")
